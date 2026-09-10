@@ -1,0 +1,6 @@
+Names and affiliation
+
+Observatory for SPOT is an independent, unofficial analytics interface.
+Protocol and token names are used only to identify public contracts and data.
+No affiliation, endorsement, or ownership of third-party names or marks is
+claimed.

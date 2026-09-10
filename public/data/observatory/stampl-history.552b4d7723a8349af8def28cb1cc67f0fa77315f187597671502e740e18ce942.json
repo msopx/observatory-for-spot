@@ -1,0 +1,687 @@
+{
+  "chainId": 1,
+  "feed": "stampl-history",
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "notes": [
+    "Reads are pinned to recorded Ethereum blocks. Core proxy identities are compared with the registry; individual collateral identity status is recorded per asset.",
+    "Funding is the policy indication at observed TVLs, not realized income or a guaranteed next payment. Rebalance claims and melds fees before recomputing TVLs.",
+    "Positive funding flows from stAMPL to SPOT; negative flows from SPOT to stAMPL. Rebalance requires not paused and block time strictly greater than last rebalance plus period.",
+    "AMPL per stAMPL is underlying-denominated NAV, including rebase exposure; it is not USD performance or fee-only yield."
+  ],
+  "rows": [
+    {
+      "amplPerStamplWad": "28091967979714351595",
+      "blockHash": "0xa3986a1dd7ddf28dd9e7ae52306cc7611791e5003d7c5ea0626ab6038e8bbad6",
+      "blockNumber": "25270802",
+      "collateralAmpl": "225379590079887",
+      "decimals": "18",
+      "deviationRatio": "53642250",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-3246225472674",
+      "lastRebalanceTimestamp": "1780878779",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-08T06:08:23.000Z",
+      "totalSupply": "8022919228821459523810"
+    },
+    {
+      "amplPerStamplWad": "28496078699082022192",
+      "blockHash": "0xe872996fc1396e645e0d6ff05b669b672dc2ea1569f051cf06796385103dbbfa",
+      "blockNumber": "25279973",
+      "collateralAmpl": "228754949129464",
+      "decimals": "18",
+      "deviationRatio": "55736656",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-3027767650115",
+      "lastRebalanceTimestamp": "1780965191",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-09T12:49:11.000Z",
+      "totalSupply": "8027593955824987004276"
+    },
+    {
+      "amplPerStamplWad": "30410557292532662957",
+      "blockHash": "0xe86a812db4139ca95ffdfba2755ff6638159b72be802174a43aacc94b941ebb1",
+      "blockNumber": "25321008",
+      "collateralAmpl": "244371781763373",
+      "decimals": "18",
+      "deviationRatio": "67133174",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-1993978094332",
+      "lastRebalanceTimestamp": "1781483567",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-15T06:08:23.000Z",
+      "totalSupply": "8035754800961134950544"
+    },
+    {
+      "amplPerStamplWad": "31576688360991424594",
+      "blockHash": "0xf38a57a70de04da7eb9ef4d7526c6a73feb7115e3fd5c75a60bf5f8fb19ce7d8",
+      "blockNumber": "25330185",
+      "collateralAmpl": "253803168950917",
+      "decimals": "18",
+      "deviationRatio": "70796689",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-1744877394794",
+      "lastRebalanceTimestamp": "1781570267",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-16T12:49:11.000Z",
+      "totalSupply": "8037675327107932701469"
+    },
+    {
+      "amplPerStamplWad": "32671542406951088223",
+      "blockHash": "0x7a5fc387a1bb4518857e1733a716e58fb431258208c3e4d1883a0fa52af56ca7",
+      "blockNumber": "25371245",
+      "collateralAmpl": "263588726272475",
+      "decimals": "18",
+      "deviationRatio": "79381587",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-1141066684618",
+      "lastRebalanceTimestamp": "1782088355",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-22T06:08:23.000Z",
+      "totalSupply": "8067838456760301072004"
+    },
+    {
+      "amplPerStamplWad": "32812976409473518945",
+      "blockHash": "0x8fb09be835663817e0d5f28b1a7efcd630458c5598e27d9a01f5ac2aeef2848e",
+      "blockNumber": "25380417",
+      "collateralAmpl": "264729792957119",
+      "decimals": "18",
+      "deviationRatio": "80555692",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-1064995572310",
+      "lastRebalanceTimestamp": "1782175367",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-23T12:49:11.000Z",
+      "totalSupply": "8067838456760301072004"
+    },
+    {
+      "amplPerStamplWad": "28907352740414205031",
+      "blockHash": "0x7d4bec13f6ac63cbd48f597301e274076e2dbdafa29c0849723f2c02bf734211",
+      "blockNumber": "25421431",
+      "collateralAmpl": "233219852122249",
+      "decimals": "18",
+      "deviationRatio": "78591311",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-1058838651192",
+      "lastRebalanceTimestamp": "1782696743",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-29T06:08:23.000Z",
+      "totalSupply": "8067838456760301072004"
+    },
+    {
+      "amplPerStamplWad": "29038594665548906393",
+      "blockHash": "0x0afb70704188e4070bce447c251a6ec01d994894599f0c78cc9c6bfa705914ca",
+      "blockNumber": "25430597",
+      "collateralAmpl": "234278690772990",
+      "decimals": "18",
+      "deviationRatio": "79802355",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-988249407787",
+      "lastRebalanceTimestamp": "1782783131",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-06-30T12:49:11.000Z",
+      "totalSupply": "8067838456760301072004"
+    },
+    {
+      "amplPerStamplWad": "29665904948713770882",
+      "blockHash": "0xaef6ea84308dc59a3c8fe2e114248c171d3676ba361378b7429eccf0ed4b2c93",
+      "blockNumber": "25471599",
+      "collateralAmpl": "236222974868938",
+      "decimals": "18",
+      "deviationRatio": "85888992",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-646831847885",
+      "lastRebalanceTimestamp": "1783301567",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-06T06:08:23.000Z",
+      "totalSupply": "7962776637939034290929"
+    },
+    {
+      "amplPerStamplWad": "29747010934106313131",
+      "blockHash": "0x3e2447d4a2f09f2f9b2adc215b5046bf74721a446cc473f01f2e6042205e723f",
+      "blockNumber": "25480774",
+      "collateralAmpl": "236920644468197",
+      "decimals": "18",
+      "deviationRatio": "86753937",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-602905511677",
+      "lastRebalanceTimestamp": "1783387955",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-07T12:49:11.000Z",
+      "totalSupply": "7964519359373906330423"
+    },
+    {
+      "amplPerStamplWad": "30145508586949591556",
+      "blockHash": "0x189aea19deec4733f9ab91ed814df71fc192b514b65b3a247211991d11624d3e",
+      "blockNumber": "25521823",
+      "collateralAmpl": "237749610903474",
+      "decimals": "18",
+      "deviationRatio": "90685315",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-436949852321",
+      "lastRebalanceTimestamp": "1783906331",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-13T06:08:23.000Z",
+      "totalSupply": "7886734112238501142740"
+    },
+    {
+      "amplPerStamplWad": "30200911729239496902",
+      "blockHash": "0x21c0b18a059edd30823d825ecd925ac79bd7ec253f187f11927ad78e18cde3c7",
+      "blockNumber": "25530987",
+      "collateralAmpl": "238186560755697",
+      "decimals": "18",
+      "deviationRatio": "91308524",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-434765103059",
+      "lastRebalanceTimestamp": "1783993031",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-14T12:49:11.000Z",
+      "totalSupply": "7886734112238501142740"
+    },
+    {
+      "amplPerStamplWad": "31188884328330636668",
+      "blockHash": "0x25373d6a94cc0cbd0daf431e6eed6bea6cd33aeec1d71865e626210c4423c95f",
+      "blockNumber": "25572034",
+      "collateralAmpl": "244942996814678",
+      "decimals": "18",
+      "deviationRatio": "95059111",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1784511131",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-20T06:08:23.000Z",
+      "totalSupply": "7853535068331455236219"
+    },
+    {
+      "amplPerStamplWad": "31188884328330636668",
+      "blockHash": "0x8aa17a5010019e3060ca240b8b9b4445f31c287c79a7ba91553abe22d6b42c44",
+      "blockNumber": "25581202",
+      "collateralAmpl": "244942996814678",
+      "decimals": "18",
+      "deviationRatio": "95059111",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1784597843",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-21T12:49:11.000Z",
+      "totalSupply": "7853535068331455236219"
+    },
+    {
+      "amplPerStamplWad": "32061933696721210616",
+      "blockHash": "0x159560cf9682262d801802010cacef28167604fa66da88c5461e29ef748dd586",
+      "blockNumber": "25622253",
+      "collateralAmpl": "251799520645718",
+      "decimals": "18",
+      "deviationRatio": "95551407",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1785116279",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-27T06:08:23.000Z",
+      "totalSupply": "7853535068331455236219"
+    },
+    {
+      "amplPerStamplWad": "32061948644660447989",
+      "blockHash": "0x9da6297fab6bcb4486cf7ddb48d42ac523016d007b0a77740cc748025ed8e0a4",
+      "blockNumber": "25631424",
+      "collateralAmpl": "251799638039883",
+      "decimals": "18",
+      "deviationRatio": "95598133",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1785202331",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-07-28T12:49:11.000Z",
+      "totalSupply": "7853535068331455236219"
+    },
+    {
+      "amplPerStamplWad": "32063636907644987749",
+      "blockHash": "0x29a3fa13a09aad43f8b6ba6d6709338c354a0216bb112456980e44e19502fdfc",
+      "blockNumber": "25672475",
+      "collateralAmpl": "250353422918020",
+      "decimals": "18",
+      "deviationRatio": "95287490",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1785720863",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-03T06:08:11.000Z",
+      "totalSupply": "7808017026862221156354"
+    },
+    {
+      "amplPerStamplWad": "32063636907644987749",
+      "blockHash": "0x1376d237df71f953df97469c9c00c08a4a9898666452b285fe30a1c650bfdfb5",
+      "blockNumber": "25681654",
+      "collateralAmpl": "250353422918020",
+      "decimals": "18",
+      "deviationRatio": "95287490",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1785807143",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-04T12:49:11.000Z",
+      "totalSupply": "7808017026862221156354"
+    },
+    {
+      "amplPerStamplWad": "32122313705307929682",
+      "blockHash": "0xa9a22edf01a82617096d6473492b8703cb6cc29376c75b66a241d182eebf1bc1",
+      "blockNumber": "25722703",
+      "collateralAmpl": "250811572353254",
+      "decimals": "18",
+      "deviationRatio": "95449088",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1786325531",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-10T06:08:23.000Z",
+      "totalSupply": "7808017026862221156354"
+    },
+    {
+      "amplPerStamplWad": "32122313705309390824",
+      "blockHash": "0xca0d43cf0a4d0fafa35a7efd31c217c3146c675191d6ade42f65185d795861ce",
+      "blockNumber": "25731859",
+      "collateralAmpl": "245993225297469",
+      "decimals": "18",
+      "deviationRatio": "95449088",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1786411943",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-11T12:49:11.000Z",
+      "totalSupply": "7658017026862221156354"
+    },
+    {
+      "amplPerStamplWad": "29786589456588619090",
+      "blockHash": "0x653bec7d1090951bdac322c6477446ce6d943239eb4351f037ee9ffe26ea5698",
+      "blockNumber": "25772906",
+      "collateralAmpl": "228321314170294",
+      "decimals": "18",
+      "deviationRatio": "92377243",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-411936436644",
+      "lastRebalanceTimestamp": "1786930715",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-17T06:08:23.000Z",
+      "totalSupply": "7665238563248491104696"
+    },
+    {
+      "amplPerStamplWad": "29840330306706977745",
+      "blockHash": "0x0447842811ebf4ec30f48cd72d84898ad03705d4c5c9e5816a9c504643ba571e",
+      "blockNumber": "25782077",
+      "collateralAmpl": "228733250607043",
+      "decimals": "18",
+      "deviationRatio": "93008954",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-409876754461",
+      "lastRebalanceTimestamp": "1787016755",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-18T12:49:11.000Z",
+      "totalSupply": "7665238563248491104696"
+    },
+    {
+      "amplPerStamplWad": "37557134807167098648",
+      "blockHash": "0x803049e42478ecf89dc77f19f874a04a203482d6edfee41bc99e84bd6404f809",
+      "blockNumber": "25823140",
+      "collateralAmpl": "289372520914186",
+      "decimals": "18",
+      "deviationRatio": "119006509",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "1155390927404",
+      "lastRebalanceTimestamp": "1787276267",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-24T06:08:23.000Z",
+      "totalSupply": "7704861470395353422140"
+    },
+    {
+      "amplPerStamplWad": "38908200212799090065",
+      "blockHash": "0xa8cd70c0d49fcaaddfca1a6690320732bd486922c88c2b00982a64e31b22a3ee",
+      "blockNumber": "25832318",
+      "collateralAmpl": "299782292702024",
+      "decimals": "18",
+      "deviationRatio": "122617613",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "1382419667251",
+      "lastRebalanceTimestamp": "1787276267",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-25T12:49:11.000Z",
+      "totalSupply": "7704861470395353422140"
+    },
+    {
+      "amplPerStamplWad": "39131302647675575371",
+      "blockHash": "0x7854d8de2dd7c060180f2a2b2232854a74f360fe4bbe0ca2d22f392295c4c622",
+      "blockNumber": "25873370",
+      "collateralAmpl": "288839104273834",
+      "decimals": "18",
+      "deviationRatio": "108703312",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "578146344993",
+      "lastRebalanceTimestamp": "1788147407",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-08-31T06:08:23.000Z",
+      "totalSupply": "7381280068144913371120"
+    },
+    {
+      "amplPerStamplWad": "35422780005659683663",
+      "blockHash": "0xaaa3a357ed9fd1f6d6c166eda0e719785acad2f54f665516f65eab440e95268d",
+      "blockNumber": "25882535",
+      "collateralAmpl": "260061906491010",
+      "decimals": "18",
+      "deviationRatio": "99307481",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "0",
+      "lastRebalanceTimestamp": "1788233579",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-09-01T12:49:11.000Z",
+      "totalSupply": "7341657160998051053676"
+    },
+    {
+      "amplPerStamplWad": "30137261025592624516",
+      "blockHash": "0xf33f89257cdac944f41917ef9aba19322811a6e9cca732ff128c850a422301ce",
+      "blockNumber": "25916411",
+      "collateralAmpl": "220136043702341",
+      "decimals": "18",
+      "deviationRatio": "89600833",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-425820340463",
+      "lastRebalanceTimestamp": "1788665531",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-09-06T06:08:23.000Z",
+      "totalSupply": "7304447591153058517914"
+    },
+    {
+      "amplPerStamplWad": "30195557061655466779",
+      "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+      "blockNumber": "25925580",
+      "collateralAmpl": "220561864042534",
+      "decimals": "18",
+      "deviationRatio": "90243380",
+      "deviationRatioDecimals": "8",
+      "feePolicyImplementation": {
+        "address": "0x03cb728991deb43a55d475885ff07a694bf1cc6b",
+        "codeHash": "0x40be873184040ad1918de36921f3e1b2921592303d5e2a933da12c3459c2149b"
+      },
+      "fundingPeriodSeconds": "85800",
+      "implementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      },
+      "indicatedFundingAmpl": "-407346338514",
+      "lastRebalanceTimestamp": "1788752279",
+      "paused": false,
+      "rebalancePaused": false,
+      "timestamp": "2026-09-07T12:49:11.000Z",
+      "totalSupply": "7304447591153058517914"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "ethereum-rpc"
+}

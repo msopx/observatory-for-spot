@@ -1,0 +1,645 @@
+{
+  "brokerAddress": "0xA088Aef966CAD7fE0B38e28c2E07590127Ab4ccB",
+  "burnFeePercent": "0",
+  "grid": {
+    "definition": {
+      "lpSupplyBasisPoints": [
+        "1",
+        "10",
+        "50",
+        "100",
+        "200",
+        "500",
+        "1000",
+        "2500",
+        "5000",
+        "10000"
+      ],
+      "maximumPoints": 40,
+      "quarterDecadeMantissasThousandths": [
+        "1000",
+        "1778",
+        "3162",
+        "5623"
+      ],
+      "stopAfterUnavailable": 2
+    },
+    "spotToUsd": [
+      {
+        "available": true,
+        "inputAmount": "1000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "212355",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1778000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "377566",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "3162000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "671461",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "5623000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "1194051",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "10000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "2123475",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "17780000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "3775417",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "31620000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "6713825",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "56230000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "11938007",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "100000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "21226813",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "177800000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "37729108",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "316200000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "67059219",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "562300000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "119131466",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1000000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "211489312",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1778000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "374869920",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "3162000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "663155603",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "5623000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "1168952208",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "10000000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "2049911363",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "1925373",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "17780000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "3590619823",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "8835570",
+        "unavailableReason": null
+      },
+      {
+        "available": false,
+        "inputAmount": "31620000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": null,
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": null,
+        "unavailableReason": "contract-reverted"
+      },
+      {
+        "available": false,
+        "inputAmount": "56230000000000",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": null,
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": null,
+        "unavailableReason": "contract-reverted"
+      }
+    ],
+    "usdToSpot": [
+      {
+        "available": true,
+        "inputAmount": "1000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "4289477356",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "54338965",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1778000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "7626577240",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "96625976",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "3162000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "13562768310",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "171875669",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "5623000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "24117606992",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "305760501",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "10000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "42887414362",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "544125664",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "17780000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "76242492795",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "968588521",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "31620000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "135553932637",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "1726132637",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "56230000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "240942202102",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "3080991790",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "100000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "428130994293",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "5515572171",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "177800000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "760055753008",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "9922802900",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "316200000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "1347932157062",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "18022044094",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "562300000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "2384697907400",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "33282330060",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1000000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "4199081118283",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "63378604872",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "1778000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "7314688534820",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "127814928918",
+        "unavailableReason": null
+      },
+      {
+        "available": true,
+        "inputAmount": "3162000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": "12384860256339",
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": "289666572767",
+        "unavailableReason": null
+      },
+      {
+        "available": false,
+        "inputAmount": "5623000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": null,
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": null,
+        "unavailableReason": "zero-output"
+      },
+      {
+        "available": false,
+        "inputAmount": "10000000000",
+        "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "outputAmount": null,
+        "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "protocolFeeAmount": null,
+        "unavailableReason": "zero-output"
+      }
+    ]
+  },
+  "implementationAddress": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+  "implementationCodeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e",
+  "lpDecimals": "18",
+  "lpRedemptions": [
+    {
+      "available": true,
+      "lpAmount": "1000000000000000000",
+      "postWithdrawalReserves": {
+        "spotBalance": "49765106974428",
+        "usdBalance": "18937258593"
+      },
+      "sale": {
+        "available": false,
+        "inputAmount": "1024",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": null,
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": null,
+        "unavailableReason": "zero-output"
+      },
+      "spotOut": "1024",
+      "unavailableReason": null,
+      "usdOut": "0"
+    },
+    {
+      "available": true,
+      "lpAmount": "4857927685216179718444858",
+      "postWithdrawalReserves": {
+        "spotBalance": "49760130464755",
+        "usdBalance": "18935364868"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "4976510697",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "1056771",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "4976510697",
+      "unavailableReason": null,
+      "usdOut": "1893725"
+    },
+    {
+      "available": true,
+      "lpAmount": "48579276852161797184448588",
+      "postWithdrawalReserves": {
+        "spotBalance": "49715341868477",
+        "usdBalance": "18918321335"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "49765106975",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "10565749",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "49765106975",
+      "unavailableReason": null,
+      "usdOut": "18937258"
+    },
+    {
+      "available": true,
+      "lpAmount": "242896384260808985922242940",
+      "postWithdrawalReserves": {
+        "spotBalance": "49516281440575",
+        "usdBalance": "18842572301"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "248825534877",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "52784933",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "248825534877",
+      "unavailableReason": null,
+      "usdOut": "94686292"
+    },
+    {
+      "available": true,
+      "lpAmount": "485792768521617971844485881",
+      "postWithdrawalReserves": {
+        "spotBalance": "49267455905698",
+        "usdBalance": "18747886008"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "497651069754",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "105460338",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "497651069754",
+      "unavailableReason": null,
+      "usdOut": "189372585"
+    },
+    {
+      "available": true,
+      "lpAmount": "971585537043235943688971762",
+      "postWithdrawalReserves": {
+        "spotBalance": "48769804835943",
+        "usdBalance": "18558513422"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "995302139509",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "210482559",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "995302139509",
+      "unavailableReason": null,
+      "usdOut": "378745171"
+    },
+    {
+      "available": true,
+      "lpAmount": "2428963842608089859222429406",
+      "postWithdrawalReserves": {
+        "spotBalance": "47276851626680",
+        "usdBalance": "17990395664"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "2488255348772",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "522920506",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "2488255348772",
+      "unavailableReason": null,
+      "usdOut": "946862929"
+    },
+    {
+      "available": true,
+      "lpAmount": "4857927685216179718444858812",
+      "postWithdrawalReserves": {
+        "spotBalance": "44788596277907",
+        "usdBalance": "17043532734"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "4976510697545",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "1034888040",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "0",
+        "unavailableReason": null
+      },
+      "spotOut": "4976510697545",
+      "unavailableReason": null,
+      "usdOut": "1893725859"
+    },
+    {
+      "available": true,
+      "lpAmount": "12144819213040449296112147030",
+      "postWithdrawalReserves": {
+        "spotBalance": "37323830231590",
+        "usdBalance": "14202943945"
+      },
+      "sale": {
+        "available": true,
+        "inputAmount": "12441276743862",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": "2516020237",
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": "5828531",
+        "unavailableReason": null
+      },
+      "spotOut": "12441276743862",
+      "unavailableReason": null,
+      "usdOut": "4734314648"
+    },
+    {
+      "available": true,
+      "lpAmount": "24289638426080898592224294061",
+      "postWithdrawalReserves": {
+        "spotBalance": "24882553487727",
+        "usdBalance": "9468629297"
+      },
+      "sale": {
+        "available": false,
+        "inputAmount": "24882553487725",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": null,
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": null,
+        "unavailableReason": "contract-reverted"
+      },
+      "spotOut": "24882553487725",
+      "unavailableReason": null,
+      "usdOut": "9468629296"
+    },
+    {
+      "available": true,
+      "lpAmount": "48579276852161797184448588123",
+      "postWithdrawalReserves": {
+        "spotBalance": "0",
+        "usdBalance": "0"
+      },
+      "sale": {
+        "available": false,
+        "inputAmount": "49765106975452",
+        "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+        "outputAmount": null,
+        "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocolFeeAmount": null,
+        "unavailableReason": "contract-reverted"
+      },
+      "spotOut": "49765106975452",
+      "unavailableReason": null,
+      "usdOut": "18937258593"
+    }
+  ],
+  "lpSupply": "48579276852161797184448588123",
+  "metadata": {
+    "blockHash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d",
+    "blockNumber": "25853823",
+    "blockTimestamp": "2026-08-28T12:45:11.000Z",
+    "chainId": 1,
+    "dataset": "broker-quotes",
+    "generatedAt": "2026-08-28T13:47:39.698Z",
+    "provenance": {
+      "contracts": [
+        {
+          "address": "0xA088Aef966CAD7fE0B38e28c2E07590127Ab4ccB",
+          "deploymentBlock": "20127143",
+          "role": "bill-broker"
+        },
+        {
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "deploymentBlock": null,
+          "role": "usdc-token"
+        },
+        {
+          "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+          "deploymentBlock": "15597008",
+          "role": "spot-token"
+        }
+      ],
+      "generator": "scripts/refresh.ts",
+      "kind": "ethereum-rpc",
+      "notes": [
+        "Every quote is an eth_call result of the deployed Bill Broker at the release block; no quote is computed by this project.",
+        "Swap grids pass the recorded reserve state to computeUSDToPerpSwapAmt and computePerpToUSDSwapAmt.",
+        "LP rows record computeRedemptionAmts and, for redeemed SPOT, computePerpToUSDSwapAmt against the reserves left after the withdrawal."
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "release"
+  },
+  "reserveState": {
+    "spotBalance": "49765106975452",
+    "spotPrice": "206916508416523960",
+    "usdBalance": "18937258593",
+    "usdPrice": "1000000000000000000"
+  },
+  "spotToken": {
+    "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+    "decimals": "9",
+    "name": "SPOT",
+    "symbol": "SPOT"
+  },
+  "usdToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": "6",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  }
+}

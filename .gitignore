@@ -1,0 +1,22 @@
+.repo-keys/
+/git-*
+
+node_modules/
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+.env*
+!.env.example
+
+# Generated temporary data
+/public/data/.tmp/
+/public/data/**/*.tmp
+/public/data/**/*.partial
+
+# Artifact staging
+/artifacts/
+/release/staging/

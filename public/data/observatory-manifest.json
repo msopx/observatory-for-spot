@@ -1,0 +1,111 @@
+{
+  "feeds": {
+    "ampl-history": {
+      "attemptedAt": "2026-09-07T13:09:27.494Z",
+      "contentHash": "fd9add2f4b2a17604881f4215b20ca50170f963f56db7d12693c40316b4efc45",
+      "coverage": {
+        "fromBlock": "7958765",
+        "toBlock": "25922410"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T02:11:35.000Z",
+      "path": "/data/observatory/ampl-history.fd9add2f4b2a17604881f4215b20ca50170f963f56db7d12693c40316b4efc45.json",
+      "rowCount": 2619,
+      "status": "ok"
+    },
+    "broker-history": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "1f2ccdba54e0f0d7d7fe4af9efd70872b03289c63f46096540e5f20ba0f5680a",
+      "coverage": {
+        "fromBlock": "25270802",
+        "toBlock": "25925580"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T12:49:11.000Z",
+      "path": "/data/observatory/broker-history.1f2ccdba54e0f0d7d7fe4af9efd70872b03289c63f46096540e5f20ba0f5680a.json",
+      "rowCount": 28,
+      "status": "ok"
+    },
+    "collateral": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "0dc6d0e5ab7f03b13f3fe36f97bff10b2304106130559f49b1b43adbfe3ff064",
+      "coverage": {
+        "fromBlock": "25925580",
+        "toBlock": "25925580"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T12:49:11.000Z",
+      "path": "/data/observatory/collateral.0dc6d0e5ab7f03b13f3fe36f97bff10b2304106130559f49b1b43adbfe3ff064.json",
+      "rowCount": 1,
+      "status": "ok"
+    },
+    "exit-inputs": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "39f05094823205bd68bdeab20cecc00abf5843892e564f1bbfa66a442a084a91",
+      "coverage": {
+        "fromBlock": "25925580",
+        "toBlock": "25925580"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T12:49:11.000Z",
+      "path": "/data/observatory/exit-inputs.39f05094823205bd68bdeab20cecc00abf5843892e564f1bbfa66a442a084a91.json",
+      "rowCount": 1,
+      "status": "ok"
+    },
+    "spot-history": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "ea3c4fb101ba0174b7c8b6a5f2c916acd12b3f314955ccbad7091dabc8c67c54",
+      "coverage": {
+        "fromBlock": "25270802",
+        "toBlock": "25925580"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T12:49:11.000Z",
+      "path": "/data/observatory/spot-history.ea3c4fb101ba0174b7c8b6a5f2c916acd12b3f314955ccbad7091dabc8c67c54.json",
+      "rowCount": 29,
+      "status": "ok"
+    },
+    "spot-market": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "dc8fc183136340c2ef00a082f184de55e47161e89c556953a30eb41827aaa93c",
+      "coverage": {
+        "fromBlock": "25276142",
+        "toBlock": "25921753"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T00:00:00.000Z",
+      "path": "/data/observatory/spot-market.dc8fc183136340c2ef00a082f184de55e47161e89c556953a30eb41827aaa93c.json",
+      "rowCount": 90,
+      "status": "ok"
+    },
+    "stampl-history": {
+      "attemptedAt": "2026-09-07T13:13:09.960Z",
+      "contentHash": "552b4d7723a8349af8def28cb1cc67f0fa77315f187597671502e740e18ce942",
+      "coverage": {
+        "fromBlock": "25270802",
+        "toBlock": "25925580"
+      },
+      "message": null,
+      "observedAt": "2026-09-07T12:49:11.000Z",
+      "path": "/data/observatory/stampl-history.552b4d7723a8349af8def28cb1cc67f0fa77315f187597671502e740e18ce942.json",
+      "rowCount": 28,
+      "status": "ok"
+    }
+  },
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "legacy": {
+    "ampl-rebases": {
+      "contentHash": "a0b8f28f9cd16c03420f211cb6be413e0ab8fd4deaa6b9ca4f3bbc04aac8c22f",
+      "path": "/data/observatory/legacy-ampl-rebases.a0b8f28f9cd16c03420f211cb6be413e0ab8fd4deaa6b9ca4f3bbc04aac8c22f.json"
+    },
+    "broker-state": {
+      "contentHash": "9dde6097381bb74b2942a5dbb829bef821df192a762d008751a7eabf93575174",
+      "path": "/data/observatory/legacy-broker-state.9dde6097381bb74b2942a5dbb829bef821df192a762d008751a7eabf93575174.json"
+    },
+    "spot-health": {
+      "contentHash": "9f9882c8afa96bfb81998507221c9cda6812f99a29ed81bc4ab3927d87cb38cd",
+      "path": "/data/observatory/legacy-spot-health.9f9882c8afa96bfb81998507221c9cda6812f99a29ed81bc4ab3927d87cb38cd.json"
+    }
+  },
+  "schemaVersion": 1
+}

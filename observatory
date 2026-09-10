@@ -1,0 +1,62 @@
+#!/bin/sh
+set -eu
+
+command_name=${1:-}
+export NEXT_TELEMETRY_DISABLED=1
+
+case "$command_name" in
+  up)
+    shift
+    exec docker compose up --build "$@"
+    ;;
+  acceptance)
+    shift
+    image_name=observatory-for-spot-acceptance:1.0.0
+    docker_engine_version=$(docker version --format '{{.Server.Version}}')
+    docker_compose_version=$(docker compose version --short)
+    mkdir -p artifacts
+    docker build --target acceptance --tag "$image_name" .
+    exec docker run \
+      --rm \
+      --network=none \
+      --user "$(id -u):$(id -g)" \
+      --env HOME=/tmp/home \
+      --env NEXT_TELEMETRY_DISABLED=1 \
+      --env "DOCKER_ENGINE_VERSION=$docker_engine_version" \
+      --env "DOCKER_COMPOSE_VERSION=$docker_compose_version" \
+      --env RELEASE_COMMIT \
+      --env RELEASE_COMMIT_VERIFIED \
+      --env RELEASE_TREE_HASH \
+      --env SOURCE_ARCHIVE_SHA256 \
+      --volume "$PWD/artifacts:/workspace/artifacts" \
+      "$image_name" \
+      npm run acceptance -- "$@"
+    ;;
+  conformance|verify:data)
+    script_name=$command_name
+    shift
+    image_name=observatory-for-spot-acceptance:1.0.0
+    mkdir -p artifacts
+    docker build --target acceptance --tag "$image_name" .
+    exec docker run \
+      --rm \
+      --user "$(id -u):$(id -g)" \
+      --env HOME=/tmp/home \
+      --env ETHEREUM_RPC_URL \
+      --env AMPL_LOG_RPC_URL \
+      --env RPC_REQUEST_INTERVAL_MS \
+      --env REFRESH_GENERATED_AT \
+      --volume "$PWD/artifacts:/workspace/artifacts" \
+      "$image_name" \
+      npm run "$script_name" -- "$@"
+    ;;
+  dev|build|typecheck|lint|test|test:e2e|refresh|refresh:observatory|refresh:watch|package:release|export-static)
+    shift
+    exec npm run "$command_name" -- "$@"
+    ;;
+  *)
+    printf '%s\n' \
+      "usage: ./observatory {up|dev|build|typecheck|lint|test|test:e2e|refresh|refresh:observatory|refresh:watch|conformance|verify:data|acceptance|package:release|export-static}" >&2
+    exit 64
+    ;;
+esac

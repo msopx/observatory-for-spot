@@ -1,0 +1,17 @@
+services:
+  observatory:
+    build:
+      context: .
+      target: static
+    image: observatory-for-spot:local
+    ports:
+      - "8080:4173"
+    environment:
+      NEXT_TELEMETRY_DISABLED: "1"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=64m,mode=1777

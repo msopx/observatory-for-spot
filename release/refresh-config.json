@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "chainId": 1,
+  "releaseBlock": {
+    "number": "25853823",
+    "hash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d"
+  },
+  "generatedAt": "2026-08-28T13:47:39.698Z",
+  "logRangeBlocks": "5000000",
+  "logResponseLimit": 1000,
+  "brokerQuoteGrid": {
+    "quarterDecadeMantissasThousandths": ["1000", "1778", "3162", "5623"],
+    "maximumPoints": 40,
+    "stopAfterUnavailable": 2,
+    "lpSupplyBasisPoints": [
+      "1",
+      "10",
+      "50",
+      "100",
+      "200",
+      "500",
+      "1000",
+      "2500",
+      "5000",
+      "10000"
+    ]
+  }
+}

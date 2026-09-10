@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "blockHash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d",
+    "blockNumber": "25853823",
+    "blockTimestamp": "2026-08-28T12:45:11.000Z",
+    "chainId": 1,
+    "dataset": "spot-health",
+    "generatedAt": "2026-08-28T13:47:39.698Z",
+    "provenance": {
+      "contracts": [
+        {
+          "address": "0x82A91a0D599A45d8E9Af781D67f695d7C72869Bd",
+          "deploymentBlock": "17329340",
+          "role": "rollover-vault"
+        },
+        {
+          "address": "0x8689Fa9991834Bcf0387b31b7986ac311bAb6ab5",
+          "deploymentBlock": "22819429",
+          "role": "spot-fee-policy"
+        },
+        {
+          "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+          "deploymentBlock": "15597008",
+          "role": "spot-token"
+        }
+      ],
+      "generator": "scripts/refresh.ts",
+      "kind": "ethereum-rpc",
+      "notes": [
+        "All contract values were read with eth_call at the release block.",
+        "Reserve token and bond maturity metadata is discovered dynamically where supported."
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "release"
+  },
+  "reserves": [
+    {
+      "balance": "13755100471113",
+      "bondAddress": "0xE0cd70fD3188B2B3e654C60c3eA1DA61Ca2B06C6",
+      "isUnderlying": false,
+      "maturity": "2026-09-02T03:00:00.000Z",
+      "maturityTimestamp": "1788318000",
+      "token": {
+        "address": "0xAcb239086c101d7b5fF0dEc23c4d74AA2017CAB6",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "13755100471113"
+    },
+    {
+      "balance": "16721041952292",
+      "bondAddress": null,
+      "isUnderlying": true,
+      "maturity": null,
+      "maturityTimestamp": null,
+      "token": {
+        "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+        "decimals": "9",
+        "name": "Ampleforth",
+        "symbol": "AMPL"
+      },
+      "underlyingValue": "16721041952292"
+    },
+    {
+      "balance": "25407037532766",
+      "bondAddress": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+      "isUnderlying": false,
+      "maturity": "2026-09-09T03:00:00.000Z",
+      "maturityTimestamp": "1788922800",
+      "token": {
+        "address": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "25407037532766"
+    },
+    {
+      "balance": "25753322679166",
+      "bondAddress": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+      "isUnderlying": false,
+      "maturity": "2026-09-16T03:00:00.000Z",
+      "maturityTimestamp": "1789527600",
+      "token": {
+        "address": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "25753322679166"
+    },
+    {
+      "balance": "5578983066274",
+      "bondAddress": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+      "isUnderlying": false,
+      "maturity": "2026-09-23T03:00:00.000Z",
+      "maturityTimestamp": "1790132400",
+      "token": {
+        "address": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "5578983066274"
+    }
+  ],
+  "rolloverVault": {
+    "address": "0x82A91a0D599A45d8E9Af781D67f695d7C72869Bd",
+    "deviationRatio": "110903460",
+    "deviationRatioDecimals": "8",
+    "totalSupply": "7380812373243407941040",
+    "tvl": "290174975584368"
+  },
+  "spot": {
+    "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+    "collateralCoverage": "0.163411520983329783",
+    "collateralCoverageDenominator": "533716871226651",
+    "collateralCoverageNumerator": "87215485701611",
+    "collateralTvl": "87215485701611",
+    "implementationAddress": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+    "implementationCodeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46",
+    "totalSupply": "533716871226651"
+  }
+}

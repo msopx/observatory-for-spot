@@ -1,0 +1,31 @@
+# Optional local background refresh. No public deployment is performed and no
+# container image is published; the image tags below are local build names.
+services:
+  observatory:
+    volumes:
+      - observatory-data:/app/out/data:ro
+  collector:
+    build:
+      context: .
+      target: collector
+    image: observatory-for-spot-collector:local
+    depends_on:
+      - observatory
+    environment:
+      ETHEREUM_RPC_URL: ${ETHEREUM_RPC_URL:?Configure archive access in the local environment}
+      AMPL_LOG_RPC_URL: ${AMPL_LOG_RPC_URL:-}
+      OBSERVATORY_HISTORY_DAYS: ${OBSERVATORY_HISTORY_DAYS:-90}
+      OBSERVATORY_SAMPLE_INTERVAL_DAYS: ${OBSERVATORY_SAMPLE_INTERVAL_DAYS:-7}
+      OBSERVATORY_REFRESH_MINUTES: ${OBSERVATORY_REFRESH_MINUTES:-60}
+      AMPL_LOG_RANGE_BLOCKS: ${AMPL_LOG_RANGE_BLOCKS:-10000}
+    volumes:
+      - observatory-data:/workspace/public/data
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+volumes:
+  observatory-data:

@@ -1,0 +1,88 @@
+Observatory for SPOT displays recorded on-chain state of public Ethereum
+contracts and, for one protocol quantity, reconstructs its arithmetic in
+TypeScript. This section identifies which quantities are recorded rather than
+computed, which code reconstructs protocol arithmetic with reference to
+upstream source, the upstream source that code references, and the licence
+terms that apply to any portion of it found to derive from that source.
+
+Recorded, not computed
+
+Every Bill Broker quote in this project is an eth_call output of the deployed
+contract at an identified block: the swap quote grids and LP redemption rows
+in public/data/broker-quotes.json, the standard quotes in
+public/data/broker-state.json, and the redemption calls in the exit-inputs
+feed. The project contains no implementation of the Bill Broker fee curve,
+swap quote, redemption or liquidity-provision arithmetic. Figures labelled
+"derived" in the interface and exports are elementary arithmetic on recorded
+values (an equal-value output at recorded prices and its difference from the
+recorded output), stated with their formula, and are not protocol
+computations. The fee reconciliation on the liquidity-provider page is
+bookkeeping on emitted Broker events and ERC-20 transfer logs: for a
+transaction containing one swap, it takes the equal-value amount at the prices
+the event itself reports and subtracts the transferred output. It uses no
+knowledge of the fee curve; the broker-history feed's notes state the method,
+and the interface presents the totals as partial attribution, not fee income.
+Bond and tranche figures in the collateral feed (bond collateral, senior
+supply, senior tokens held, senior-token collateral, maturity and maturity
+state) are recorded contract reads displayed without further calculation; the
+project contains no implementation of tranche claim, waterfall or maturity
+arithmetic. The integer helpers in src/protocol/fixed-point.ts (uint256/int256
+bounds checks, floor, ceiling and truncating division, decimal parsing and
+formatting) are generic project arithmetic and implement no protocol source.
+
+Code written with reference to upstream source
+
+- src/data/integration.ts: the legacy AMPL CPI-adjusted target rate,
+  floor(cpi * 10^18 / baseCpi) with the mainnet base CPI, for policy epochs
+  whose rebase event reports the CPI oracle value but not the target rate
+  (reference: ampleforth-contracts contracts/UFragmentsPolicy.sol at commit
+  936b2d7faaa1c154e4b7b7fcd8c3d99496dbcac8, GPL-3.0-or-later). For the later
+  policy version the emitted target rate is recorded, not computed.
+
+Method
+
+The reconstruction was written in TypeScript from the contract's public ABI,
+its observable behaviour on Ethereum mainnet, and recorded events. The
+upstream Solidity source named above was consulted to confirm rounding
+direction. No upstream source text, Solidity file, vendored repository,
+submodule or deployed bytecode is included in this project. The implementation
+was written with reference to that source; it is not presented as a clean-room
+implementation.
+
+Upstream source
+
+- Ampleforth protocol contracts, Fragments, Inc.
+  https://github.com/fragmentsorg/ampleforth-contracts (GPL-3.0-or-later).
+  Notice: release/upstream-licenses/ampleforth-contracts.NOTICE.txt.
+
+The mechanism explainers in the interface link to the deployed SPOT
+implementation contract's verified source on the block explorer as the public
+record of the deployed behaviour they describe. The SPOT protocol contracts
+(https://github.com/fragmentsorg/spot) carry the Business Source License 1.1
+for their core contracts; no module of this project reproduces or derives from
+those contracts and none of their text is included.
+
+The SPOT/USDC market-history collector reads one Uniswap V3 pool through its
+public interface. The pool, factory and pool init-code constants it checks are
+published deployment values, the function and event signatures it uses are the
+pool's public interface, and the price it derives from a swap's sqrtPriceX96
+value is the documented fixed-point encoding of that value. No Uniswap
+implementation code is reproduced.
+
+Licence position
+
+This project is licensed under GPL-3.0-or-later (see LICENSE). The authors
+regard the code above as their own expression of publicly observable,
+functionally dictated behaviour. To the extent that any portion of it is held
+to derive from the GPL-licensed upstream file named above, that portion
+remains under the licence of that upstream file, GPL-3.0-or-later, which is
+also this project's licence, with the published licence identifier and notice
+preserved in the notice file listed above. The file carries a dated header
+notice identifying the upstream file and commit it was written with reference
+to, so that the modification notice GPLv3 section 5(a) would require in that
+event is already present. The referenced file header publishes no project
+copyright line; the notice file records that fact and pins the exact commits
+inspected. These statements describe the licence conditions that would apply;
+they are not an admission that any such derivation exists. Protocol and token
+names are used only to identify public contracts and data; see TRADEMARKS.md
+in the source tree, served by the interface as TRADEMARKS.txt.

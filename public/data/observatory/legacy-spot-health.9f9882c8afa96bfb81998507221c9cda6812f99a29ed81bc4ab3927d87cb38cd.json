@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+    "blockNumber": "25925580",
+    "blockTimestamp": "2026-09-07T12:49:11.000Z",
+    "chainId": 1,
+    "dataset": "spot-health",
+    "generatedAt": "2026-09-07T13:13:09.960Z",
+    "provenance": {
+      "contracts": [
+        {
+          "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+          "deploymentBlock": "15597008",
+          "role": "spot-token"
+        },
+        {
+          "address": "0x82A91a0D599A45d8E9Af781D67f695d7C72869Bd",
+          "deploymentBlock": "17329340",
+          "role": "rollover-vault"
+        },
+        {
+          "address": "0x8689Fa9991834Bcf0387b31b7986ac311bAb6ab5",
+          "deploymentBlock": "22819429",
+          "role": "spot-fee-policy"
+        }
+      ],
+      "generator": "scripts/refresh.ts",
+      "kind": "ethereum-rpc",
+      "notes": [
+        "All contract values were read with eth_call at the release block.",
+        "Reserve token and bond maturity metadata is discovered dynamically where supported."
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "release"
+  },
+  "reserves": [
+    {
+      "balance": "24540271835360",
+      "bondAddress": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+      "isUnderlying": false,
+      "maturity": "2026-09-09T03:00:00.000Z",
+      "maturityTimestamp": "1788922800",
+      "token": {
+        "address": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "24540271835360"
+    },
+    {
+      "balance": "24874743401132",
+      "bondAddress": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+      "isUnderlying": false,
+      "maturity": "2026-09-16T03:00:00.000Z",
+      "maturityTimestamp": "1789527600",
+      "token": {
+        "address": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "24874743401132"
+    },
+    {
+      "balance": "6698006371341",
+      "bondAddress": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+      "isUnderlying": false,
+      "maturity": "2026-09-23T03:00:00.000Z",
+      "maturityTimestamp": "1790132400",
+      "token": {
+        "address": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14",
+        "decimals": "9",
+        "name": "ButtonTranche AMPL A",
+        "symbol": "TRANCHE-AMPL-A"
+      },
+      "underlyingValue": "6698006371341"
+    },
+    {
+      "balance": "25356246095078",
+      "bondAddress": null,
+      "isUnderlying": true,
+      "maturity": null,
+      "maturityTimestamp": null,
+      "token": {
+        "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+        "decimals": "9",
+        "name": "Ampleforth",
+        "symbol": "AMPL"
+      },
+      "underlyingValue": "25356246095078"
+    }
+  ],
+  "rolloverVault": {
+    "address": "0x82A91a0D599A45d8E9Af781D67f695d7C72869Bd",
+    "deviationRatio": "90243380",
+    "deviationRatioDecimals": "8",
+    "totalSupply": "7304447591153058517914",
+    "tvl": "220561864042534"
+  },
+  "spot": {
+    "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+    "collateralCoverage": "0.152645104726910224",
+    "collateralCoverageDenominator": "533716871226651",
+    "collateralCoverageNumerator": "81469267702911",
+    "collateralTvl": "81469267702911",
+    "implementationAddress": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+    "implementationCodeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46",
+    "totalSupply": "533716871226651"
+  }
+}

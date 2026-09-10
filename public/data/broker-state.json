@@ -1,0 +1,104 @@
+{
+  "assetRatio": "1839064775791753128",
+  "brokerAddress": "0xA088Aef966CAD7fE0B38e28c2E07590127Ab4ccB",
+  "implementationAddress": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+  "implementationCodeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e",
+  "metadata": {
+    "blockHash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d",
+    "blockNumber": "25853823",
+    "blockTimestamp": "2026-08-28T12:45:11.000Z",
+    "chainId": 1,
+    "dataset": "broker-state",
+    "generatedAt": "2026-08-28T13:47:39.698Z",
+    "provenance": {
+      "contracts": [
+        {
+          "address": "0xA088Aef966CAD7fE0B38e28c2E07590127Ab4ccB",
+          "deploymentBlock": "20127143",
+          "role": "bill-broker"
+        },
+        {
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "deploymentBlock": null,
+          "role": "usdc-token"
+        },
+        {
+          "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+          "deploymentBlock": "15597008",
+          "role": "spot-token"
+        }
+      ],
+      "generator": "scripts/refresh.ts",
+      "kind": "ethereum-rpc",
+      "notes": [
+        "State, parameters, and quotes were evaluated with eth_call at the release block.",
+        "Quote inputs are fixed at 1000000 USDC base units and 1000000000 SPOT base units."
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "release"
+  },
+  "parameters": {
+    "decimals": "18",
+    "fees": {
+      "burnFeePercent": "0",
+      "mintFeePercent": "0",
+      "protocolSwapSharePercent": "100000000000000000",
+      "spotToUsdFeeFactors": {
+        "lower": "1050000000000000000",
+        "upper": "1500000000000000000"
+      },
+      "usdToSpotFeeFactors": {
+        "lower": "1050000000000000000",
+        "upper": "1500000000000000000"
+      }
+    },
+    "hardAssetRatioBounds": {
+      "lower": "200000000000000000",
+      "upper": "5000000000000000000"
+    },
+    "one": "1000000000000000000",
+    "softAssetRatioBounds": {
+      "lower": "750000000000000000",
+      "upper": "1330000000000000000"
+    }
+  },
+  "quotes": {
+    "spotToUsd": {
+      "available": true,
+      "inputAmount": "1000000000",
+      "inputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "outputAmount": "212355",
+      "outputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "protocolFeeAmount": "0",
+      "unavailableReason": null
+    },
+    "usdToSpot": {
+      "available": true,
+      "inputAmount": "1000000",
+      "inputAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "outputAmount": "4289477356",
+      "outputAsset": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "protocolFeeAmount": "54338965",
+      "unavailableReason": null
+    }
+  },
+  "reserveState": {
+    "spotBalance": "49765106975452",
+    "spotPrice": "206916508416523960",
+    "usdBalance": "18937258593",
+    "usdPrice": "1000000000000000000"
+  },
+  "spotToken": {
+    "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+    "decimals": "9",
+    "name": "SPOT",
+    "symbol": "SPOT"
+  },
+  "usdToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": "6",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  }
+}

@@ -1,0 +1,19 @@
+Ampleforth protocol contracts
+Repository: https://github.com/fragmentsorg/ampleforth-contracts
+Licence: GPL-3.0-or-later (GNU General Public License v3.0 or later)
+Declared in: the repository's LICENSE file and SPDX headers.
+
+Commit 936b2d7faaa1c154e4b7b7fcd8c3d99496dbcac8, file
+contracts/UFragmentsPolicy.sol: consulted for the legacy CPI-adjusted
+target-rate derivation reproduced in src/data/integration.ts
+(LEGACY_BASE_CPI and legacyCpiAdjustedTargetRate).
+
+Commit 701eee27d877f2ad7d0308467968a209d73dcff7, file
+contracts/UFragmentsPolicy.sol: consulted for the LogRebaseV2 event semantics.
+For that policy version the project records the target rate the event emits
+and reproduces no arithmetic from that revision.
+
+No project copyright notice appears in the referenced file's header or the
+root GPL licence at either commit. The file's
+`SPDX-License-Identifier: GPL-3.0-or-later` notice is preserved above. The GPL
+text governing this project is in LICENSE.

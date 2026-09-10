@@ -1,0 +1,219 @@
+{
+  "chainId": 1,
+  "feed": "exit-inputs",
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "notes": [
+    "Reads are pinned to recorded Ethereum blocks. Core proxy identities are compared with the registry; individual collateral identity status is recorded per asset."
+  ],
+  "rows": [
+    {
+      "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+      "blockNumber": "25925580",
+      "brokerBurnFeePercent": "0",
+      "brokerFeeUnit": "1000000000000000000",
+      "brokerImplementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "brokerLpDecimals": "18",
+      "brokerLpSupply": "48579276852161797184448588123",
+      "brokerPaused": false,
+      "brokerRedemptions": [
+        {
+          "inputAmount": "1000000000000000000",
+          "spotAmount": "1024",
+          "usdAmount": "0"
+        },
+        {
+          "inputAmount": "485792768521617971844485881",
+          "spotAmount": "497651069754",
+          "usdAmount": "189372585"
+        }
+      ],
+      "spotImplementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "spotPaused": false,
+      "spotRedemptions": [
+        {
+          "available": true,
+          "inputAmount": "1000000000",
+          "reason": null,
+          "tokensOut": [
+            {
+              "amount": "47508796",
+              "token": "0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            },
+            {
+              "amount": "45979943",
+              "token": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+            },
+            {
+              "amount": "46606627",
+              "token": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+            },
+            {
+              "amount": "12549737",
+              "token": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+            }
+          ]
+        },
+        {
+          "available": true,
+          "inputAmount": "10000000000",
+          "reason": null,
+          "tokensOut": [
+            {
+              "amount": "475087962",
+              "token": "0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            },
+            {
+              "amount": "459799439",
+              "token": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+            },
+            {
+              "amount": "466066274",
+              "token": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+            },
+            {
+              "amount": "125497370",
+              "token": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+            }
+          ]
+        },
+        {
+          "available": true,
+          "inputAmount": "100000000000",
+          "reason": null,
+          "tokensOut": [
+            {
+              "amount": "4750879625",
+              "token": "0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            },
+            {
+              "amount": "4597994397",
+              "token": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+            },
+            {
+              "amount": "4660662748",
+              "token": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+            },
+            {
+              "amount": "1254973700",
+              "token": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+            }
+          ]
+        },
+        {
+          "available": true,
+          "inputAmount": "1000000000000",
+          "reason": null,
+          "tokensOut": [
+            {
+              "amount": "47508796258",
+              "token": "0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            },
+            {
+              "amount": "45979943970",
+              "token": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+            },
+            {
+              "amount": "46606627487",
+              "token": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+            },
+            {
+              "amount": "12549737009",
+              "token": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+            }
+          ]
+        },
+        {
+          "available": true,
+          "inputAmount": "10000000000000",
+          "reason": null,
+          "tokensOut": [
+            {
+              "amount": "475087962589",
+              "token": "0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            },
+            {
+              "amount": "459799439709",
+              "token": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+            },
+            {
+              "amount": "466066274876",
+              "token": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+            },
+            {
+              "amount": "125497370093",
+              "token": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+            }
+          ]
+        }
+      ],
+      "spotReserves": [
+        {
+          "balance": "24540271835360",
+          "bondAddress": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+          "isUnderlying": false,
+          "maturity": "2026-09-09T03:00:00.000Z",
+          "maturityTimestamp": "1788922800",
+          "token": {
+            "address": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "24540271835360"
+        },
+        {
+          "balance": "24874743401132",
+          "bondAddress": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+          "isUnderlying": false,
+          "maturity": "2026-09-16T03:00:00.000Z",
+          "maturityTimestamp": "1789527600",
+          "token": {
+            "address": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "24874743401132"
+        },
+        {
+          "balance": "6698006371341",
+          "bondAddress": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+          "isUnderlying": false,
+          "maturity": "2026-09-23T03:00:00.000Z",
+          "maturityTimestamp": "1790132400",
+          "token": {
+            "address": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "6698006371341"
+        },
+        {
+          "balance": "25356246095078",
+          "bondAddress": null,
+          "isUnderlying": true,
+          "maturity": null,
+          "maturityTimestamp": null,
+          "token": {
+            "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "decimals": "9",
+            "name": "Ampleforth",
+            "symbol": "AMPL"
+          },
+          "underlyingValue": "25356246095078"
+        }
+      ],
+      "spotTotalSupply": "533716871226651",
+      "timestamp": "2026-09-07T12:49:11.000Z"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "ethereum-rpc"
+}

@@ -1,0 +1,16 @@
+.git
+.repo-keys
+git-*
+node_modules
+.next
+out
+coverage
+test-results
+playwright-report
+.env*
+!.env.example
+public/data/.tmp
+public/data/**/*.tmp
+public/data/**/*.partial
+artifacts
+release/staging

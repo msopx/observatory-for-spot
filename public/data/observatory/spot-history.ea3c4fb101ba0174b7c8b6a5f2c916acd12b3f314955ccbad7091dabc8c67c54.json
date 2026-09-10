@@ -1,0 +1,447 @@
+{
+  "chainId": 1,
+  "feed": "spot-history",
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "notes": [
+    "Reads are pinned to recorded Ethereum blocks. Core proxy identities are compared with the registry; individual collateral identity status is recorded per asset."
+  ],
+  "rows": [
+    {
+      "blockHash": "0xa3986a1dd7ddf28dd9e7ae52306cc7611791e5003d7c5ea0626ab6038e8bbad6",
+      "blockNumber": "25270802",
+      "collateralAmpl": "140051039480118",
+      "deviationRatio": "53642250",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "320459833191976236",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-08T06:08:23.000Z",
+      "totalSupply": "547691598355642"
+    },
+    {
+      "blockHash": "0xe872996fc1396e645e0d6ff05b669b672dc2ea1569f051cf06796385103dbbfa",
+      "blockNumber": "25279973",
+      "collateralAmpl": "136807002712133",
+      "deviationRatio": "55736656",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "313036943041384439",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-09T12:49:11.000Z",
+      "totalSupply": "547691598355642"
+    },
+    {
+      "blockHash": "0xe86a812db4139ca95ffdfba2755ff6638159b72be802174a43aacc94b941ebb1",
+      "blockNumber": "25321008",
+      "collateralAmpl": "121336822474432",
+      "deviationRatio": "67133174",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "277191328558199606",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-15T06:08:23.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0xf38a57a70de04da7eb9ef4d7526c6a73feb7115e3fd5c75a60bf5f8fb19ce7d8",
+      "blockNumber": "25330185",
+      "collateralAmpl": "119498604212853",
+      "deviationRatio": "70796689",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "272991958970996211",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-16T12:49:11.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0x7a5fc387a1bb4518857e1733a716e58fb431258208c3e4d1883a0fa52af56ca7",
+      "blockNumber": "25371245",
+      "collateralAmpl": "110684242449859",
+      "deviationRatio": "79381587",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "252855741476164878",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-22T06:08:23.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0x8fb09be835663817e0d5f28b1a7efcd630458c5598e27d9a01f5ac2aeef2848e",
+      "blockNumber": "25380417",
+      "collateralAmpl": "109543175765243",
+      "deviationRatio": "80555692",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "250248999484475930",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-23T12:49:11.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0x7d4bec13f6ac63cbd48f597301e274076e2dbdafa29c0849723f2c02bf734211",
+      "blockNumber": "25421431",
+      "collateralAmpl": "98916723731268",
+      "deviationRatio": "78591311",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "225973101227966049",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-29T06:08:23.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0x0afb70704188e4070bce447c251a6ec01d994894599f0c78cc9c6bfa705914ca",
+      "blockNumber": "25430597",
+      "collateralAmpl": "97857885080078",
+      "deviationRatio": "79802355",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "223554207387936782",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-06-30T12:49:11.000Z",
+      "totalSupply": "547278827039691"
+    },
+    {
+      "blockHash": "0xaef6ea84308dc59a3c8fe2e114248c171d3676ba361378b7429eccf0ed4b2c93",
+      "blockNumber": "25471599",
+      "collateralAmpl": "91677628580682",
+      "deviationRatio": "85888992",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "212585062903252453",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-06T06:08:23.000Z",
+      "totalSupply": "540543280054740"
+    },
+    {
+      "blockHash": "0x3e2447d4a2f09f2f9b2adc215b5046bf74721a446cc473f01f2e6042205e723f",
+      "blockNumber": "25480774",
+      "collateralAmpl": "91031658389607",
+      "deviationRatio": "86753937",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "212121985744600065",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-07T12:49:11.000Z",
+      "totalSupply": "540543280054740"
+    },
+    {
+      "blockHash": "0x189aea19deec4733f9ab91ed814df71fc192b514b65b3a247211991d11624d3e",
+      "blockNumber": "25521823",
+      "collateralAmpl": "87389970464231",
+      "deviationRatio": "90685315",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "204812860856683080",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-13T06:08:23.000Z",
+      "totalSupply": "537437629181559"
+    },
+    {
+      "blockHash": "0x21c0b18a059edd30823d825ecd925ac79bd7ec253f187f11927ad78e18cde3c7",
+      "blockNumber": "25530987",
+      "collateralAmpl": "86953020611911",
+      "deviationRatio": "91308524",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "203788796552402372",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-14T12:49:11.000Z",
+      "totalSupply": "537437629181559"
+    },
+    {
+      "blockHash": "0x25373d6a94cc0cbd0daf431e6eed6bea6cd33aeec1d71865e626210c4423c95f",
+      "blockNumber": "25572034",
+      "collateralAmpl": "85891467681080",
+      "deviationRatio": "95059111",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "203059987203270122",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-20T06:08:23.000Z",
+      "totalSupply": "532781788507928"
+    },
+    {
+      "blockHash": "0x8aa17a5010019e3060ca240b8b9b4445f31c287c79a7ba91553abe22d6b42c44",
+      "blockNumber": "25581202",
+      "collateralAmpl": "85891467681080",
+      "deviationRatio": "95059111",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "203059987203270122",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-21T12:49:11.000Z",
+      "totalSupply": "532781788507928"
+    },
+    {
+      "blockHash": "0x159560cf9682262d801802010cacef28167604fa66da88c5461e29ef748dd586",
+      "blockNumber": "25622253",
+      "collateralAmpl": "87840854930129",
+      "deviationRatio": "95551407",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201034617382104918",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-27T06:08:23.000Z",
+      "totalSupply": "550363226865490"
+    },
+    {
+      "blockHash": "0x9da6297fab6bcb4486cf7ddb48d42ac523016d007b0a77740cc748025ed8e0a4",
+      "blockNumber": "25631424",
+      "collateralAmpl": "87797961608800",
+      "deviationRatio": "95598133",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201034617382109866",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-07-28T12:49:11.000Z",
+      "totalSupply": "550094480542864"
+    },
+    {
+      "blockHash": "0x29a3fa13a09aad43f8b6ba6d6709338c354a0216bb112456980e44e19502fdfc",
+      "blockNumber": "25672475",
+      "collateralAmpl": "87578275117370",
+      "deviationRatio": "95287490",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201565750056251374",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-03T06:08:11.000Z",
+      "totalSupply": "548718043958524"
+    },
+    {
+      "blockHash": "0x1376d237df71f953df97469c9c00c08a4a9898666452b285fe30a1c650bfdfb5",
+      "blockNumber": "25681654",
+      "collateralAmpl": "87578275117370",
+      "deviationRatio": "95287490",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201565750056251374",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-04T12:49:11.000Z",
+      "totalSupply": "548718043958524"
+    },
+    {
+      "blockHash": "0xa9a22edf01a82617096d6473492b8703cb6cc29376c75b66a241d182eebf1bc1",
+      "blockNumber": "25722703",
+      "collateralAmpl": "87590000764607",
+      "deviationRatio": "95449088",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201086398316735350",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-10T06:08:23.000Z",
+      "totalSupply": "551549256798066"
+    },
+    {
+      "blockHash": "0xca0d43cf0a4d0fafa35a7efd31c217c3146c675191d6ade42f65185d795861ce",
+      "blockNumber": "25731859",
+      "collateralAmpl": "85907307185759",
+      "deviationRatio": "95449088",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "201086398316751395",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-11T12:49:11.000Z",
+      "totalSupply": "540953430964813"
+    },
+    {
+      "blockHash": "0x653bec7d1090951bdac322c6477446ce6d943239eb4351f037ee9ffe26ea5698",
+      "blockNumber": "25772906",
+      "collateralAmpl": "82387287328878",
+      "deviationRatio": "92377243",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "192846958178171601",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-17T06:08:23.000Z",
+      "totalSupply": "540953430964813"
+    },
+    {
+      "blockHash": "0x0447842811ebf4ec30f48cd72d84898ad03705d4c5c9e5816a9c504643ba571e",
+      "blockNumber": "25782077",
+      "collateralAmpl": "81975350892236",
+      "deviationRatio": "93008954",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "191882723387286338",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-18T12:49:11.000Z",
+      "totalSupply": "540953430964813"
+    },
+    {
+      "blockHash": "0x803049e42478ecf89dc77f19f874a04a203482d6edfee41bc99e84bd6404f809",
+      "blockNumber": "25823140",
+      "collateralAmpl": "81052294606001",
+      "deviationRatio": "119006509",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "198352227430657125",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-24T06:08:23.000Z",
+      "totalSupply": "517417009510829"
+    },
+    {
+      "blockHash": "0xa8cd70c0d49fcaaddfca1a6690320732bd486922c88c2b00982a64e31b22a3ee",
+      "blockNumber": "25832318",
+      "collateralAmpl": "81495168670657",
+      "deviationRatio": "122617613",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "199436034590254585",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-25T12:49:11.000Z",
+      "totalSupply": "517417009510829"
+    },
+    {
+      "blockHash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d",
+      "blockNumber": "25853823",
+      "collateralAmpl": "87215485701611",
+      "deviationRatio": "110903460",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "206916508416523960",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-28T12:45:11.000Z",
+      "totalSupply": "533716871226651"
+    },
+    {
+      "blockHash": "0x7854d8de2dd7c060180f2a2b2232854a74f360fe4bbe0ca2d22f392295c4c622",
+      "blockNumber": "25873370",
+      "collateralAmpl": "88571083491369",
+      "deviationRatio": "108703312",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "210397656720015489",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-08-31T06:08:23.000Z",
+      "totalSupply": "533716871226651"
+    },
+    {
+      "blockHash": "0xaaa3a357ed9fd1f6d6c166eda0e719785acad2f54f665516f65eab440e95268d",
+      "blockNumber": "25882535",
+      "collateralAmpl": "87291813863524",
+      "deviationRatio": "99307481",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "207358794357697174",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "5",
+      "timestamp": "2026-09-01T12:49:11.000Z",
+      "totalSupply": "533716871226651"
+    },
+    {
+      "blockHash": "0xf33f89257cdac944f41917ef9aba19322811a6e9cca732ff128c850a422301ce",
+      "blockNumber": "25916411",
+      "collateralAmpl": "81895088043373",
+      "deviationRatio": "89600833",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "194539052047207980",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-09-06T06:08:23.000Z",
+      "totalSupply": "533716871226651"
+    },
+    {
+      "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+      "blockNumber": "25925580",
+      "collateralAmpl": "81469267702911",
+      "deviationRatio": "90243380",
+      "deviationRatioDecimals": "8",
+      "fmvUsd": "193527530021222440",
+      "implementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "reserveCount": "4",
+      "timestamp": "2026-09-07T12:49:11.000Z",
+      "totalSupply": "533716871226651"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "ethereum-rpc"
+}

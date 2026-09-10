@@ -1,0 +1,2948 @@
+{
+  "chainId": 1,
+  "events": [
+    {
+      "amount": "197832020",
+      "blockHash": "0x781fb79df8ac4a345386d6b63b9dfe72c577989289ec82f976d327254fde5097",
+      "blockNumber": "25276307",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "830",
+      "preState": {
+        "spotBalance": "44146955525966",
+        "spotPrice": "313036943041384439",
+        "usdBalance": "19696224011",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-09T00:33:11.000Z",
+      "transactionHash": "0xa119e8cd033446aeb9301301140ac67a9bd78b97400549aa2f777394c5899f7e"
+    },
+    {
+      "amount": "71945950",
+      "blockHash": "0x0437d6d05c59a0ec4f71f5d0a1aa04e5b87a88edee9c56930cc2673aab1ada3b",
+      "blockNumber": "25276545",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "371",
+      "preState": {
+        "spotBalance": "43551287946406",
+        "spotPrice": "313036943041384439",
+        "usdBalance": "19894056031",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-09T01:20:47.000Z",
+      "transactionHash": "0x6d8dcbf2c5e924c5b25d86e51ada016d6ad277937de2aa5d47bd886e8f4ed7d2"
+    },
+    {
+      "amount": "158273973",
+      "blockHash": "0xf8e01d88e092b41958f9407875d3df78c41d2c3eefea9662afb7065fc8ad8231",
+      "blockNumber": "25283486",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "352",
+      "preState": {
+        "spotBalance": "43335241617523",
+        "spotPrice": "306108912234177632",
+        "usdBalance": "19966001981",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-10T00:33:35.000Z",
+      "transactionHash": "0x167245a9ff6dd586a0c435f0318da78faadd14adb263482ba5c35ab26ab09326"
+    },
+    {
+      "amount": "82964134",
+      "blockHash": "0xf8e01d88e092b41958f9407875d3df78c41d2c3eefea9662afb7065fc8ad8231",
+      "blockNumber": "25283486",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "382",
+      "preState": {
+        "spotBalance": "42852313464216",
+        "spotPrice": "306108912234177632",
+        "usdBalance": "20124275954",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-10T00:33:35.000Z",
+      "transactionHash": "0x167245a9ff6dd586a0c435f0318da78faadd14adb263482ba5c35ab26ab09326"
+    },
+    {
+      "amount": "179196987",
+      "blockHash": "0xfa4e64e145af92de72928e58cbf2807222d99888f209961a618f7e2b0755f83c",
+      "blockNumber": "25290654",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "6",
+      "preState": {
+        "spotBalance": "42599828964992",
+        "spotPrice": "298936963638976726",
+        "usdBalance": "20207240088",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-11T00:32:35.000Z",
+      "transactionHash": "0xc85ff5897431b9bfb2ffdb48c0f6b9d44165acc2debfe04029fb25b28fa6be44"
+    },
+    {
+      "amount": "100000000",
+      "blockHash": "0xcf1b8d2eeb04c9f0263382d73c10b14ef8aaaf13c2f479df46a181a9b50cb378",
+      "blockNumber": "25290655",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "71",
+      "preState": {
+        "spotBalance": "42045564919123",
+        "spotPrice": "298936963638976726",
+        "usdBalance": "20386437075",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-11T00:32:47.000Z",
+      "transactionHash": "0x29fbb716f243378bf5689afa36146f6404dd5ca4002bc20720e1e07e3f143b7a"
+    },
+    {
+      "amount": "27978589",
+      "blockHash": "0x75351023af5d64c40ac65be51085e942fe6ba34469be364c73df0de0c396860f",
+      "blockNumber": "25306730",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "76",
+      "preState": {
+        "spotBalance": "41737265757678",
+        "spotPrice": "287301082624006768",
+        "usdBalance": "20486437075",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-13T06:21:47.000Z",
+      "transactionHash": "0xd6157ce06b72f9d9e8513027ced1a21267feb88d72a034c26a602d1a0a7cff1c"
+    },
+    {
+      "amount": "53628308",
+      "blockHash": "0xd81317af5988abeee0d577c647ca2b2be97cef69dbf021970ccab49002ec9da3",
+      "blockNumber": "25306731",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "280",
+      "preState": {
+        "spotBalance": "41648365107621",
+        "spotPrice": "287301082624006768",
+        "usdBalance": "20514415664",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-13T06:21:59.000Z",
+      "transactionHash": "0x5e41d4d996524e2a9a18a6619e4effb4f76d8e2585782db16cf91cbf59751d48"
+    },
+    {
+      "amount": "84466792",
+      "blockHash": "0xb940ed0d7cabd109aec351b7ff3531e92ec4376a41051fabd07ef7e1fe35a1f5",
+      "blockNumber": "25312172",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "343",
+      "preState": {
+        "spotBalance": "41478147593434",
+        "spotPrice": "282071899486518277",
+        "usdBalance": "20568043972",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-14T00:34:11.000Z",
+      "transactionHash": "0x21820983db38994e40df16e00e9041085347921535500225ae64f039ad20d6b6"
+    },
+    {
+      "amount": "131033840",
+      "blockHash": "0x6ea5d00fedcdf275eb5ab7ee65ceab455a75dd898f1ff968a2a32198b8f7eb7a",
+      "blockNumber": "25319336",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "340",
+      "preState": {
+        "spotBalance": "41206645891121",
+        "spotPrice": "277191328558199606",
+        "usdBalance": "20652510764",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-15T00:32:47.000Z",
+      "transactionHash": "0x664ecc43361da42a3cc1750addcfee523fb07c626679ee2efcf90b53f18b413d"
+    },
+    {
+      "amount": "56751112",
+      "blockHash": "0xe0c61f99a95de4d7e9d7bee4458e198c8f24ead05ea694df9e261805208e1ae9",
+      "blockNumber": "25319337",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "306",
+      "preState": {
+        "spotBalance": "40780990085492",
+        "spotPrice": "277191328558199606",
+        "usdBalance": "20783544604",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-15T00:32:59.000Z",
+      "transactionHash": "0xcb23910eaf02488e60404726f83fc7e0fc331d9e70f77cbb1f03d57a8822e4bc"
+    },
+    {
+      "amount": "94943202",
+      "blockHash": "0xb47d02d69755015d4c52686848445cf661f8e7997c3d08db88e1a49c48093974",
+      "blockNumber": "25326541",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "395",
+      "preState": {
+        "spotBalance": "40597119347551",
+        "spotPrice": "272638352746498501",
+        "usdBalance": "20840295716",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-16T00:38:11.000Z",
+      "transactionHash": "0x2c81348bd3218b632dade6b625d9633c925c8922dad787842dae2066f19df5f1"
+    },
+    {
+      "amount": "61854216",
+      "blockHash": "0xc4ce58058b3c4a6cae9efa721a7a13877a43c0a7e7b4d33ad3efac0d9737537d",
+      "blockNumber": "25326542",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "174",
+      "preState": {
+        "spotBalance": "40286277550122",
+        "spotPrice": "272638352746498501",
+        "usdBalance": "20935238918",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-16T00:38:23.000Z",
+      "transactionHash": "0xbb1ac245a569f36330c3f01481df9afcad82a706a962123f952386a62bfba2d2"
+    },
+    {
+      "amount": "76654200",
+      "blockHash": "0x35eac9b0419542cc51974807bc83c6096c568afb4c955bc4dccbcb6c78e8e251",
+      "blockNumber": "25333698",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "232",
+      "preState": {
+        "spotBalance": "40084242238534",
+        "spotPrice": "269004451839350536",
+        "usdBalance": "20997093134",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-17T00:32:23.000Z",
+      "transactionHash": "0xb9a5e4af1b122e5a323dbc97dbb697401691d736150f74015262957c610cdad5"
+    },
+    {
+      "amount": "96490319",
+      "blockHash": "0xeadc7773d3f6121093578708da2e85ff077a2c8e9519e1baff92eace4a84c35d",
+      "blockNumber": "25338650",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "92",
+      "preState": {
+        "spotBalance": "39831852523165",
+        "spotPrice": "269004451839350536",
+        "usdBalance": "21073747334",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-17T17:05:59.000Z",
+      "transactionHash": "0xc32b5c4426e0c1ff0e973614f1c4d9d42ae577a086ebc3e6c15f5094e0e48387"
+    },
+    {
+      "amount": "16159000",
+      "blockHash": "0xf6b39592dbe8903beb656b2cf278973b90e57944e02ccdb7ffb2943bd44881f0",
+      "blockNumber": "25340893",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "1067",
+      "preState": {
+        "spotBalance": "39515038402150",
+        "spotPrice": "265282778516487332",
+        "usdBalance": "21170237653",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-18T00:34:59.000Z",
+      "transactionHash": "0xab7e67318320e9fe27c9f30d8dda4ffc41e0183014e8240b75f9eda950493c57"
+    },
+    {
+      "amount": "46297716",
+      "blockHash": "0x125810861de00e0292abaf79d179f7d6287e1999fefb60e6f40723b03044e1c5",
+      "blockNumber": "25340894",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "888",
+      "preState": {
+        "spotBalance": "39461517867829",
+        "spotPrice": "265282778516487332",
+        "usdBalance": "21186396653",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-18T00:35:11.000Z",
+      "transactionHash": "0xe840362ff0b3baf5b5f694cf341437754fc0cdd331c878e630beac2641b803a7"
+    },
+    {
+      "amount": "45384421",
+      "blockHash": "0xe7e6bdef2601aa6b1e9459445da5ffaa223a180cbc631b5c6713d3e64824683f",
+      "blockNumber": "25342933",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "340",
+      "preState": {
+        "spotBalance": "39308341252028",
+        "spotPrice": "265282778516487332",
+        "usdBalance": "21232694369",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-18T07:23:59.000Z",
+      "transactionHash": "0xaf86b5e5232ccb8056353bbccca11b66896a53006f65a563fddfc550c6ad297c"
+    },
+    {
+      "amount": "66787648",
+      "blockHash": "0xdf6164a4bdbfbb5e74ab6c9de535d24aa72196fc160a06ae4f4289b22d102b9e",
+      "blockNumber": "25348064",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "316",
+      "preState": {
+        "spotBalance": "39158417479437",
+        "spotPrice": "261847291385530387",
+        "usdBalance": "21278078790",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-19T00:34:11.000Z",
+      "transactionHash": "0x4404394de65a3f0dedad3694f1a9cbfb8fb5ff4b5ec23d382c420e80ebff23ca"
+    },
+    {
+      "amount": "47037690",
+      "blockHash": "0xc9097b1d818da583febc6e716c90998b45d8a380ac2e0c372c499224cfc5ea02",
+      "blockNumber": "25348868",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "498",
+      "preState": {
+        "spotBalance": "38936091010269",
+        "spotPrice": "261847291385530387",
+        "usdBalance": "21344866438",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-19T03:15:47.000Z",
+      "transactionHash": "0xe7e75313f7dda138e727ef8e00293aedacdca3939971168555b63faabf636837"
+    },
+    {
+      "amount": "31859501",
+      "blockHash": "0x7f1fe7795871d672345da683f7c3967c21cb0975bd74364aaced167235f1250f",
+      "blockNumber": "25349640",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "332",
+      "preState": {
+        "spotBalance": "38779816354615",
+        "spotPrice": "261847291385530387",
+        "usdBalance": "21391904128",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-19T05:50:47.000Z",
+      "transactionHash": "0x433f53441f917cbe97cd3b9c2fb56ea1167ee8c6138fc3eda47af57f15ba48c8"
+    },
+    {
+      "amount": "48048900",
+      "blockHash": "0xa9f0b1b6e7709fe43a63b43b9da342177b95e2981b9b68fc5c176038fd8231bb",
+      "blockNumber": "25376876",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "458",
+      "preState": {
+        "spotBalance": "38674113485334",
+        "spotPrice": "250248999484475930",
+        "usdBalance": "21423763629",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-23T00:57:47.000Z",
+      "transactionHash": "0x43784c42b02feed1258e3af49235f7b427877c98259b20ee51a53e0e1b76a87b"
+    },
+    {
+      "amount": "83852722",
+      "blockHash": "0xc7d54791f8753500efc465182989afadc0e194daf8a563e094d362b6d4cbbcd7",
+      "blockNumber": "25405851",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "111",
+      "preState": {
+        "spotBalance": "38509641761436",
+        "spotPrice": "231341564597414538",
+        "usdBalance": "21471812529",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-27T02:00:23.000Z",
+      "transactionHash": "0x13325952976faece375ca548d14bdbebb50428f4cba67a28691e89d3a7053443"
+    },
+    {
+      "amount": "12955219",
+      "blockHash": "0x607d13d8629234f218c7d143345506f2d1c3ea3d9a23a2130589531ad9b59493",
+      "blockNumber": "25410047",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "292",
+      "preState": {
+        "spotBalance": "38207343358281",
+        "spotPrice": "231341564597414538",
+        "usdBalance": "21555665251",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-27T16:02:59.000Z",
+      "transactionHash": "0xe6b2385fdc9f81813552c2ba0dfff2ebddd0669d10847bb5c43dce7bd5de1b3c"
+    },
+    {
+      "amount": "9954937",
+      "blockHash": "0x01b9f72edec74e109791b5b9e7d14d70a75d1e8b8b4ab73ec28e71a8fd36c946",
+      "blockNumber": "25413225",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "283",
+      "preState": {
+        "spotBalance": "38160730298868",
+        "spotPrice": "228564773199426303",
+        "usdBalance": "21568620470",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-28T02:40:47.000Z",
+      "transactionHash": "0x32719ca0f48909d0167f158ed74d7b2839c9482d5336b3cc4c6ea7cf0cd728b7"
+    },
+    {
+      "amount": "28277130",
+      "blockHash": "0xb8187fa6c757d239e1cf3aea1def6f14a1d534050a2739c3502a295085d8178b",
+      "blockNumber": "25413226",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "91",
+      "preState": {
+        "spotBalance": "38124638587975",
+        "spotPrice": "228564773199426303",
+        "usdBalance": "21578575407",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-28T02:40:59.000Z",
+      "transactionHash": "0xb75b5b255783aa66346ddceb89da6e902039f9f8515f07ed74d1cd11a08d2425"
+    },
+    {
+      "amount": "52982251",
+      "blockHash": "0x281d6fb05f8f37fc8eaab0240a4e2507a486d0cfb9df4047f3fa3bdd2ba38870",
+      "blockNumber": "25420059",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "408",
+      "preState": {
+        "spotBalance": "38022217331509",
+        "spotPrice": "225973101227966049",
+        "usdBalance": "21606852537",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-29T01:32:35.000Z",
+      "transactionHash": "0xf5f1f7fd80218fee00a8da90c64b8790d73458c42ee836bb4cc25ee19af6943e"
+    },
+    {
+      "amount": "28277130",
+      "blockHash": "0xabb21417d40f18d0c15ba163ca6224342dc61d69e82ae0cee7f714837625bd4f",
+      "blockNumber": "25427227",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "1146",
+      "preState": {
+        "spotBalance": "37829242167221",
+        "spotPrice": "223554207387936782",
+        "usdBalance": "21659834788",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T01:32:23.000Z",
+      "transactionHash": "0xc1e6b3e1f9fda0a83a0a449ec3498a9d3d6f74061514454f9b7839d6951bbf49"
+    },
+    {
+      "amount": "4056201033311",
+      "blockHash": "0x4cf14aeb7e35804b2c902d2127262922d4e49bc703ccc7506c247f14bf1d63fe",
+      "blockNumber": "25432532",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "14",
+      "preState": {
+        "spotBalance": "37725714542313",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "21688111918",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T19:18:23.000Z",
+      "transactionHash": "0x344bb8b4c8882f561f76712a964c47348a98177730b62f72adcb9f491472362d"
+    },
+    {
+      "amount": "325270880270",
+      "blockHash": "0x4cf14aeb7e35804b2c902d2127262922d4e49bc703ccc7506c247f14bf1d63fe",
+      "blockNumber": "25432532",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "27",
+      "preState": {
+        "spotBalance": "41781915575624",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "20679789461",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T19:18:23.000Z",
+      "transactionHash": "0x344bb8b4c8882f561f76712a964c47348a98177730b62f72adcb9f491472362d"
+    },
+    {
+      "amount": "4606597950486",
+      "blockHash": "0xf2beeb1dd43f7bcb1f03ca5f90d893550357a7617311dcd8af0919f5e1ccc9be",
+      "blockNumber": "25432572",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "23",
+      "preState": {
+        "spotBalance": "42107186455894",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "20601072806",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T19:26:23.000Z",
+      "transactionHash": "0x10526257c7ae7334785b8c522b8d74aa58c66cea11a152dd9286a87c42eca81c"
+    },
+    {
+      "amount": "2182581487690",
+      "blockHash": "0xf2beeb1dd43f7bcb1f03ca5f90d893550357a7617311dcd8af0919f5e1ccc9be",
+      "blockNumber": "25432572",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "36",
+      "preState": {
+        "spotBalance": "46713784406380",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "19512556131",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T19:26:23.000Z",
+      "transactionHash": "0x10526257c7ae7334785b8c522b8d74aa58c66cea11a152dd9286a87c42eca81c"
+    },
+    {
+      "amount": "662254938925",
+      "blockHash": "0x704a101d62973ba528208ea4744a1db4e7b10152d448b60339be5e65df1a5c5e",
+      "blockNumber": "25433082",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "472",
+      "preState": {
+        "spotBalance": "48896365894070",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "19013405906",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T21:08:23.000Z",
+      "transactionHash": "0x22b3f980b4bf9865f8f2ca2d06302c06256f5e34d947acdee35b4b754c62d4ac"
+    },
+    {
+      "amount": "211706933869",
+      "blockHash": "0xaf54c508e290a2daa4ea354e9f5f72d620704aa5ced518ede6e172c07e0cdab7",
+      "blockNumber": "25433370",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "38",
+      "preState": {
+        "spotBalance": "49558620832995",
+        "spotPrice": "224123309367513402",
+        "usdBalance": "18863798503",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-06-30T22:05:59.000Z",
+      "transactionHash": "0xb3bfec7fd6711b09803235c03d5e47b923bb8ba55786e76f8eb1bee34e781657"
+    },
+    {
+      "amount": "70682293",
+      "blockHash": "0x318242b74c617d174cf235de4f81bc3c326d8a6277dfea762d25291048b04427",
+      "blockNumber": "25506497",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "22",
+      "preState": {
+        "spotBalance": "49770327766864",
+        "spotPrice": "206937604386824547",
+        "usdBalance": "18816144131",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-11T02:51:35.000Z",
+      "transactionHash": "0xef938125ad0267fad3a7a1577e82d0f445cfa2c3b4a94aded908827f43879b62"
+    },
+    {
+      "amount": "98547104",
+      "blockHash": "0xfd8d1ef4c0acc1fe0892c83cf78ed88813e74e9a2a0ece8e434cc64744937ce9",
+      "blockNumber": "25520449",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "454",
+      "preState": {
+        "spotBalance": "49463233536307",
+        "spotPrice": "204812860856683080",
+        "usdBalance": "18886826424",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-13T01:32:23.000Z",
+      "transactionHash": "0x23a1fea10869e71bf0b6da858dfccff473014da3f82bfd3a64c17ade06b00a19"
+    },
+    {
+      "amount": "102633633",
+      "blockHash": "0x482743456335b8f9c7df99f6bda51f1a42212089dd62380df668237798d8ca77",
+      "blockNumber": "25531151",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "627",
+      "preState": {
+        "spotBalance": "49032846652757",
+        "spotPrice": "203788796552402372",
+        "usdBalance": "18985373528",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-14T13:21:59.000Z",
+      "transactionHash": "0x59fceb2f27044c5a10079592ef437db9b386186aa6197519b83e847c51daeba8"
+    },
+    {
+      "amount": "23836361",
+      "blockHash": "0xcca2ed667cd5995887e57cd69575a78e466f5e30b76d2f6213925c2212994b87",
+      "blockNumber": "25536392",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "83",
+      "preState": {
+        "spotBalance": "48584397424405",
+        "spotPrice": "202769852569646348",
+        "usdBalance": "19088007161",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-15T06:54:59.000Z",
+      "transactionHash": "0x359179daf3947e3b41b3b16c731b8be36e3933d969cd954d5a08d140b013fbe6"
+    },
+    {
+      "amount": "95112738",
+      "blockHash": "0xcaa03811c6e6480da1ec5af35a2487b04bdb5fc3d1f26a69ecb8b4c2defe6484",
+      "blockNumber": "25538228",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "223",
+      "preState": {
+        "spotBalance": "48480061695398",
+        "spotPrice": "202769852569646348",
+        "usdBalance": "19111843522",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-15T13:02:59.000Z",
+      "transactionHash": "0x39e5a41913141bd56cb6c36c3c952951c2a827f1ea80be0193abd6c2c3f7fa9b"
+    },
+    {
+      "amount": "85261579",
+      "blockHash": "0xf4633528e68b6b3dbafef96e166325f811026c52972850acf6e756bc36639ff7",
+      "blockNumber": "25554184",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "92",
+      "preState": {
+        "spotBalance": "48064638809738",
+        "spotPrice": "203059987203256826",
+        "usdBalance": "19206956260",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-17T18:24:11.000Z",
+      "transactionHash": "0x66eba6e0e5ab83a4258429a80a769d9b7dd9460cda8ddbc24a388de2c84cf4a3"
+    },
+    {
+      "amount": "281586011",
+      "blockHash": "0x4446234ad1d7aece138c1f12a0f7c6b7a7fd5dee396adf7c9b30fb46c0dd3084",
+      "blockNumber": "25554262",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "6",
+      "preState": {
+        "spotBalance": "47693814697824",
+        "spotPrice": "203059987203264396",
+        "usdBalance": "19292217839",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-17T18:39:47.000Z",
+      "transactionHash": "0x746cafdbb6387a9d7b8dea81d9f9e4d3094d4d83519511e9e8594c626a744710"
+    },
+    {
+      "amount": "73912498",
+      "blockHash": "0x4446234ad1d7aece138c1f12a0f7c6b7a7fd5dee396adf7c9b30fb46c0dd3084",
+      "blockNumber": "25554262",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "21",
+      "preState": {
+        "spotBalance": "46477669204793",
+        "spotPrice": "203059987203264396",
+        "usdBalance": "19573803850",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-17T18:39:47.000Z",
+      "transactionHash": "0x746cafdbb6387a9d7b8dea81d9f9e4d3094d4d83519511e9e8594c626a744710"
+    },
+    {
+      "amount": "31689742",
+      "blockHash": "0x5726884db71934da3c41b1b104fffbfdd02a4822b56fa9f0f4570ac1b30ac9d8",
+      "blockNumber": "25579111",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "568",
+      "preState": {
+        "spotBalance": "46160427543069",
+        "spotPrice": "203059987203270122",
+        "usdBalance": "19647716348",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-21T05:49:59.000Z",
+      "transactionHash": "0x7c87cc4f6b9fb07263e84f9decd1c085fafe707d4b3e56c668af98c668baacba"
+    },
+    {
+      "amount": "1193851257354",
+      "blockHash": "0x9a96abf5caf9e86256007a42dcfea31b50aacced7e27fb27f22db83878b26ca4",
+      "blockNumber": "25600758",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "44",
+      "preState": {
+        "spotBalance": "46024673999407",
+        "spotPrice": "203060142301515999",
+        "usdBalance": "19679406090",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-24T06:19:11.000Z",
+      "transactionHash": "0x62389371d30b92aceb37418605fd16ed073b85982a5e72ed6d6cfa8268147d66"
+    },
+    {
+      "amount": "926025300233",
+      "blockHash": "0xd70b2f695a301c9f3d894ae16499f53d1e8b9f9634966708e5883c944cde1f9d",
+      "blockNumber": "25602786",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "153",
+      "preState": {
+        "spotBalance": "47218525256761",
+        "spotPrice": "203060142301516634",
+        "usdBalance": "19422348463",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-24T13:05:47.000Z",
+      "transactionHash": "0x5ac067e89ac61e4119fcf32aa1b1df501ac25e6f26a64961cf67b0ac309f6ded"
+    },
+    {
+      "amount": "580480251312",
+      "blockHash": "0xacd2ca190d3768badccbee2f562056adcb1a1f5d0b74ed3721e34e35d2a5cdf8",
+      "blockNumber": "25606653",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "476",
+      "preState": {
+        "spotBalance": "48144550556994",
+        "spotPrice": "202044841590021779",
+        "usdBalance": "19224927976",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-25T02:00:11.000Z",
+      "transactionHash": "0x3041feaad5387ff1f78da1a7dd90e72c4bdaed3a5cf55fcd4d872a6283ccc53a"
+    },
+    {
+      "amount": "366747217686",
+      "blockHash": "0xe707606bae6e0f020879488237f67187ef5fde7d553d3f42bd948938b08e1996",
+      "blockNumber": "25621299",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "169",
+      "preState": {
+        "spotBalance": "48725030808306",
+        "spotPrice": "201034617382078762",
+        "usdBalance": "19102459676",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-27T02:56:47.000Z",
+      "transactionHash": "0xc6c89cec58ace37c4adad762a63a13f7a02a9f3c84c8fc2a368f6b55d508db3f"
+    },
+    {
+      "amount": "286482576726",
+      "blockHash": "0x62e3442f10daef89395a87f7ab29f929818a1ee8fd68f9c16e0c4193311107ec",
+      "blockNumber": "25621306",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "163",
+      "preState": {
+        "spotBalance": "49091778025992",
+        "spotPrice": "201034617382078762",
+        "usdBalance": "19025686863",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-27T02:58:11.000Z",
+      "transactionHash": "0x020c0caf1b2c74bf7e72945ec0298663879a3250df9695fd7c26e7613f3ade22"
+    },
+    {
+      "amount": "319253053129",
+      "blockHash": "0x23b12b85582e288f1420f7761b099d0e33b2176d7862c273927665b7bce214e6",
+      "blockNumber": "25621307",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "66",
+      "preState": {
+        "spotBalance": "49378260602718",
+        "spotPrice": "201034617382086344",
+        "usdBalance": "18965887282",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-07-27T02:58:23.000Z",
+      "transactionHash": "0x3a209ff9d23bf46282edea1eedf33bb3448385f859f9f5008c729ff1cbfd78e5"
+    },
+    {
+      "amount": "1599871934500",
+      "blockHash": "0x74df6394fbcabcaf2d02eca1e12425c11ca80063ade18f3a25a0ec84eec04a6f",
+      "blockNumber": "25685900",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "111",
+      "preState": {
+        "spotBalance": "49697513655847",
+        "spotPrice": "201565750056251614",
+        "usdBalance": "18899421031",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-05T03:00:23.000Z",
+      "transactionHash": "0xd940c4fffc98f8af177aa2f1ba6db4ade4de40c8a84e08cac5516dd02b5f90dc"
+    },
+    {
+      "amount": "275857140616",
+      "blockHash": "0x773c39c646db8a9f5c17f4648bd43cabc9c1684f9c06cee9569740a729cf5f4e",
+      "blockNumber": "25688167",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "76",
+      "preState": {
+        "spotBalance": "51297385590347",
+        "spotPrice": "201565750056252071",
+        "usdBalance": "18568338126",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-05T10:35:59.000Z",
+      "transactionHash": "0x6eb183c69761852c962d3d011a5672d6d85a153628030358357d8447b7c38f61"
+    },
+    {
+      "amount": "601270731770",
+      "blockHash": "0xd7c921508752b0f4ff009ff575adb653dfa48668ab652c71258ff9959e1f630e",
+      "blockNumber": "25689773",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "214",
+      "preState": {
+        "spotBalance": "51573242730963",
+        "spotPrice": "201565750056252071",
+        "usdBalance": "18511695666",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-05T15:58:47.000Z",
+      "transactionHash": "0x1906902ae7ca4677b3c0dabc0cdf97f5a714d4599e8b4458f1f57269c40bb7fe"
+    },
+    {
+      "amount": "112042863133",
+      "blockHash": "0x3e8cc6cac4f9db000276133d944725adfc5035589b4b0cc5c3410d7646a79e7c",
+      "blockNumber": "25690950",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "149",
+      "preState": {
+        "spotBalance": "52174513462733",
+        "spotPrice": "202096882730379556",
+        "usdBalance": "18388663835",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-05T19:54:47.000Z",
+      "transactionHash": "0x85111a1c5932bef9e423251520f485609512cb8fa60348705110ab24f03018dd"
+    },
+    {
+      "amount": "166421472348",
+      "blockHash": "0x4296c9cc2ce3f4f10c8c7c17c40633a7fd1338d5b14d69fc5d46bb0536fede12",
+      "blockNumber": "25692022",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "72",
+      "preState": {
+        "spotBalance": "52286556325866",
+        "spotPrice": "202096882730379556",
+        "usdBalance": "18365757785",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-05T23:29:47.000Z",
+      "transactionHash": "0x273a58152486ce72d0cee1cf181eff803805d48b467810170461fc0d1316a46e"
+    },
+    {
+      "amount": "722226564",
+      "blockHash": "0xdf3d667d97be92b08af2f11a8d012dfc1d77836caf3f26d08e1e5d5ada4d0ca1",
+      "blockNumber": "25791734",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "320",
+      "preState": {
+        "spotBalance": "52452977798214",
+        "spotPrice": "190923309770368240",
+        "usdBalance": "18331771406",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-19T21:06:35.000Z",
+      "transactionHash": "0x5ea36b38a675d7c42c00a2ebd2993a6d45dd458868592bd59242f5c8d79368fc"
+    },
+    {
+      "amount": "151707010",
+      "blockHash": "0x6c65348021498e1125187f8d1ca10e9479c560d380dac07d66dfcd95d17dba6d",
+      "blockNumber": "25798435",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "782",
+      "preState": {
+        "spotBalance": "49095256491722",
+        "spotPrice": "192346221108996273",
+        "usdBalance": "19053997970",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-20T19:30:23.000Z",
+      "transactionHash": "0x0c5bd832f1c59831cc0fa7d7d63d098a3578322208cb581c14bf681c079e0b7d"
+    },
+    {
+      "amount": "146257957",
+      "blockHash": "0xb3fa1faf762f41cadcf043bd49ca3cf4c3ba4c3dcea697fb0bb812c01e2ec53b",
+      "blockNumber": "25800243",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "424",
+      "preState": {
+        "spotBalance": "48404033522428",
+        "spotPrice": "192346221109014981",
+        "usdBalance": "19205704980",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-21T01:32:47.000Z",
+      "transactionHash": "0x43c897c88bcdf624996e8944b0fb33eae2b1515006b337e46bce1a8ca7146583"
+    },
+    {
+      "amount": "148848704",
+      "blockHash": "0xb8ff8053333bae2448dca576c92fe1252b4a313eb16c60820f33d809fdbec16d",
+      "blockNumber": "25806714",
+      "event": "SwapUSDForPerps",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "777",
+      "preState": {
+        "spotBalance": "47741406894578",
+        "spotPrice": "194341541252915196",
+        "usdBalance": "19351962937",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-21T23:11:11.000Z",
+      "transactionHash": "0x0dc68784d6dfab530f69e06c6d0ff883d665a4747871a761650d900fd65dc2f5"
+    },
+    {
+      "amount": "2689142656145",
+      "blockHash": "0x2118ec1f1b05423d840ef0564524179859ea7060dfd2a7ac8da106de8eba6967",
+      "blockNumber": "25836556",
+      "event": "SwapPerpsForUSD",
+      "feeAttribution": "transaction-parameters-unverified",
+      "logIndex": "456",
+      "preState": {
+        "spotBalance": "47075964319307",
+        "spotPrice": "199781908903155868",
+        "usdBalance": "19500811641",
+        "usdPrice": "1000000000000000000"
+      },
+      "timestamp": "2026-08-26T03:00:11.000Z",
+      "transactionHash": "0xb37aa22115ac1ac152b8b4d646474b14785c9be8a44502288a04325748aaa378"
+    }
+  ],
+  "feed": "broker-history",
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "ledger": {
+    "coverage": "complete",
+    "events": [
+      {
+        "blockNumber": "25276307",
+        "fee": {
+          "amount": "40343344934",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "4034334494"
+        },
+        "kind": "swap",
+        "logIndex": "827",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-595667579560",
+        "transactionHash": "0xa119e8cd033446aeb9301301140ac67a9bd78b97400549aa2f777394c5899f7e",
+        "usdcDelta": "197832020"
+      },
+      {
+        "blockNumber": "25276545",
+        "fee": {
+          "amount": "15317565686",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "1531756569"
+        },
+        "kind": "swap",
+        "logIndex": "368",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-216046328883",
+        "transactionHash": "0x6d8dcbf2c5e924c5b25d86e51ada016d6ad277937de2aa5d47bd886e8f4ed7d2",
+        "usdcDelta": "71945950"
+      },
+      {
+        "blockNumber": "25283486",
+        "fee": null,
+        "kind": "swap",
+        "logIndex": "349",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-735412652531",
+        "transactionHash": "0x167245a9ff6dd586a0c435f0318da78faadd14adb263482ba5c35ab26ab09326",
+        "usdcDelta": "241238107"
+      },
+      {
+        "blockNumber": "25290654",
+        "fee": {
+          "amount": "50203731257",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "5020373126"
+        },
+        "kind": "swap",
+        "logIndex": "3",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-554264045869",
+        "transactionHash": "0xc85ff5897431b9bfb2ffdb48c0f6b9d44165acc2debfe04029fb25b28fa6be44",
+        "usdcDelta": "179196987"
+      },
+      {
+        "blockNumber": "25290655",
+        "fee": {
+          "amount": "29132803950",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2913280395"
+        },
+        "kind": "swap",
+        "logIndex": "68",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-308299161445",
+        "transactionHash": "0x29fbb716f243378bf5689afa36146f6404dd5ca4002bc20720e1e07e3f143b7a",
+        "usdcDelta": "100000000"
+      },
+      {
+        "blockNumber": "25306730",
+        "fee": {
+          "amount": "9426177715",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "942617772"
+        },
+        "kind": "swap",
+        "logIndex": "73",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-88900650057",
+        "transactionHash": "0xd6157ce06b72f9d9e8513027ced1a21267feb88d72a034c26a602d1a0a7cff1c",
+        "usdcDelta": "27978589"
+      },
+      {
+        "blockNumber": "25306731",
+        "fee": {
+          "amount": "18272088682",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "1827208869"
+        },
+        "kind": "swap",
+        "logIndex": "277",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-170217514187",
+        "transactionHash": "0x5e41d4d996524e2a9a18a6619e4effb4f76d8e2585782db16cf91cbf59751d48",
+        "usdcDelta": "53628308"
+      },
+      {
+        "blockNumber": "25312172",
+        "fee": {
+          "amount": "31055088542",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "3105508855"
+        },
+        "kind": "swap",
+        "logIndex": "340",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-271501702313",
+        "transactionHash": "0x21820983db38994e40df16e00e9041085347921535500225ae64f039ad20d6b6",
+        "usdcDelta": "84466792"
+      },
+      {
+        "blockNumber": "25319336",
+        "fee": {
+          "amount": "52293369302",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "5229336931"
+        },
+        "kind": "swap",
+        "logIndex": "337",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-425655805629",
+        "transactionHash": "0x664ecc43361da42a3cc1750addcfee523fb07c626679ee2efcf90b53f18b413d",
+        "usdcDelta": "131033840"
+      },
+      {
+        "blockNumber": "25319337",
+        "fee": {
+          "amount": "23183896733",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2318389674"
+        },
+        "kind": "swap",
+        "logIndex": "303",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-183870737941",
+        "transactionHash": "0xcb23910eaf02488e60404726f83fc7e0fc331d9e70f77cbb1f03d57a8822e4bc",
+        "usdcDelta": "56751112"
+      },
+      {
+        "blockNumber": "25326541",
+        "fee": {
+          "amount": "41552017302",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "4155201731"
+        },
+        "kind": "swap",
+        "logIndex": "392",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-310841797429",
+        "transactionHash": "0x2c81348bd3218b632dade6b625d9633c925c8922dad787842dae2066f19df5f1",
+        "usdcDelta": "94943202"
+      },
+      {
+        "blockNumber": "25326542",
+        "fee": {
+          "amount": "27597166014",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2759716602"
+        },
+        "kind": "swap",
+        "logIndex": "171",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-202035311588",
+        "transactionHash": "0xbb1ac245a569f36330c3f01481df9afcad82a706a962123f952386a62bfba2d2",
+        "usdcDelta": "61854216"
+      },
+      {
+        "blockNumber": "25333698",
+        "fee": {
+          "amount": "36183799590",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "3618379959"
+        },
+        "kind": "swap",
+        "logIndex": "229",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-252389715369",
+        "transactionHash": "0xb9a5e4af1b122e5a323dbc97dbb697401691d736150f74015262957c610cdad5",
+        "usdcDelta": "76654200"
+      },
+      {
+        "blockNumber": "25338650",
+        "fee": {
+          "amount": "46533347762",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "4653334777"
+        },
+        "kind": "swap",
+        "logIndex": "89",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-316814121015",
+        "transactionHash": "0xc32b5c4426e0c1ff0e973614f1c4d9d42ae577a086ebc3e6c15f5094e0e48387",
+        "usdcDelta": "96490319"
+      },
+      {
+        "blockNumber": "25340893",
+        "fee": {
+          "amount": "8213138533",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "821313854"
+        },
+        "kind": "swap",
+        "logIndex": "1064",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-53520534321",
+        "transactionHash": "0xab7e67318320e9fe27c9f30d8dda4ffc41e0183014e8240b75f9eda950493c57",
+        "usdcDelta": "16159000"
+      },
+      {
+        "blockNumber": "25340894",
+        "fee": {
+          "amount": "23717239111",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2371723912"
+        },
+        "kind": "swap",
+        "logIndex": "885",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-153176615801",
+        "transactionHash": "0xe840362ff0b3baf5b5f694cf341437754fc0cdd331c878e630beac2641b803a7",
+        "usdcDelta": "46297716"
+      },
+      {
+        "blockNumber": "25342933",
+        "fee": {
+          "amount": "23506262677",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2350626268"
+        },
+        "kind": "swap",
+        "logIndex": "337",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-149923772591",
+        "transactionHash": "0xaf86b5e5232ccb8056353bbccca11b66896a53006f65a563fddfc550c6ad297c",
+        "usdcDelta": "45384421"
+      },
+      {
+        "blockNumber": "25348064",
+        "fee": {
+          "amount": "36374314258",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "3637431426"
+        },
+        "kind": "swap",
+        "logIndex": "313",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-222326469168",
+        "transactionHash": "0x4404394de65a3f0dedad3694f1a9cbfb8fb5ff4b5ec23d382c420e80ebff23ca",
+        "usdcDelta": "66787648"
+      },
+      {
+        "blockNumber": "25348868",
+        "fee": {
+          "amount": "25959128163",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2595912817"
+        },
+        "kind": "swap",
+        "logIndex": "495",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-156274655654",
+        "transactionHash": "0xe7e75313f7dda138e727ef8e00293aedacdca3939971168555b63faabf636837",
+        "usdcDelta": "47037690"
+      },
+      {
+        "blockNumber": "25349640",
+        "fee": {
+          "amount": "17743551911",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "1774355192"
+        },
+        "kind": "swap",
+        "logIndex": "329",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-105702869281",
+        "transactionHash": "0x433f53441f917cbe97cd3b9c2fb56ea1167ee8c6138fc3eda47af57f15ba48c8",
+        "usdcDelta": "31859501"
+      },
+      {
+        "blockNumber": "25376876",
+        "fee": {
+          "amount": "30591822336",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "3059182234"
+        },
+        "kind": "swap",
+        "logIndex": "455",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-164471723898",
+        "transactionHash": "0x43784c42b02feed1258e3af49235f7b427877c98259b20ee51a53e0e1b76a87b",
+        "usdcDelta": "48048900"
+      },
+      {
+        "blockNumber": "25405851",
+        "fee": {
+          "amount": "66849380939",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "6684938094"
+        },
+        "kind": "swap",
+        "logIndex": "108",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-302298403155",
+        "transactionHash": "0x13325952976faece375ca548d14bdbebb50428f4cba67a28691e89d3a7053443",
+        "usdcDelta": "83852722"
+      },
+      {
+        "blockNumber": "25410047",
+        "fee": {
+          "amount": "10430372875",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "1043037288"
+        },
+        "kind": "swap",
+        "logIndex": "289",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-46613059413",
+        "transactionHash": "0xe6b2385fdc9f81813552c2ba0dfff2ebddd0669d10847bb5c43dce7bd5de1b3c",
+        "usdcDelta": "12955219"
+      },
+      {
+        "blockNumber": "25413225",
+        "fee": {
+          "amount": "8291562342",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "829156235"
+        },
+        "kind": "swap",
+        "logIndex": "280",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-36091710893",
+        "transactionHash": "0x32719ca0f48909d0167f158ed74d7b2839c9482d5336b3cc4c6ea7cf0cd728b7",
+        "usdcDelta": "9954937"
+      },
+      {
+        "blockNumber": "25413226",
+        "fee": {
+          "amount": "23660877261",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2366087727"
+        },
+        "kind": "swap",
+        "logIndex": "88",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-102421256466",
+        "transactionHash": "0xb75b5b255783aa66346ddceb89da6e902039f9f8515f07ed74d1cd11a08d2425",
+        "usdcDelta": "28277130"
+      },
+      {
+        "blockNumber": "25420059",
+        "fee": {
+          "amount": "46097199681",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "4609719969"
+        },
+        "kind": "swap",
+        "logIndex": "405",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-192975164288",
+        "transactionHash": "0xf5f1f7fd80218fee00a8da90c64b8790d73458c42ee836bb4cc25ee19af6943e",
+        "usdcDelta": "52982251"
+      },
+      {
+        "blockNumber": "25427227",
+        "fee": {
+          "amount": "25512547880",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2551254788"
+        },
+        "kind": "swap",
+        "logIndex": "1143",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-103527624908",
+        "transactionHash": "0xc1e6b3e1f9fda0a83a0a449ec3498a9d3d6f74061514454f9b7839d6951bbf49",
+        "usdcDelta": "28277130"
+      },
+      {
+        "blockNumber": "25432532",
+        "fee": null,
+        "kind": "swap",
+        "logIndex": "12",
+        "lpSupplyDelta": "0",
+        "spotDelta": "4381471913581",
+        "transactionHash": "0x344bb8b4c8882f561f76712a964c47348a98177730b62f72adcb9f491472362d",
+        "usdcDelta": "-1087039112"
+      },
+      {
+        "blockNumber": "25432572",
+        "fee": null,
+        "kind": "swap",
+        "logIndex": "21",
+        "lpSupplyDelta": "0",
+        "spotDelta": "6789179438176",
+        "transactionHash": "0x10526257c7ae7334785b8c522b8d74aa58c66cea11a152dd9286a87c42eca81c",
+        "usdcDelta": "-1587666900"
+      },
+      {
+        "blockNumber": "25433082",
+        "fee": {
+          "amount": "-1180635",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "470",
+        "lpSupplyDelta": "0",
+        "spotDelta": "662254938925",
+        "transactionHash": "0x22b3f980b4bf9865f8f2ca2d06302c06256f5e34d947acdee35b4b754c62d4ac",
+        "usdcDelta": "-149607403"
+      },
+      {
+        "blockNumber": "25433370",
+        "fee": {
+          "amount": "-205914",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "36",
+        "lpSupplyDelta": "0",
+        "spotDelta": "211706933869",
+        "transactionHash": "0xb3bfec7fd6711b09803235c03d5e47b923bb8ba55786e76f8eb1bee34e781657",
+        "usdcDelta": "-47654372"
+      },
+      {
+        "blockNumber": "25506497",
+        "fee": {
+          "amount": "38298976048",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "3829897605"
+        },
+        "kind": "swap",
+        "logIndex": "19",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-307094230557",
+        "transactionHash": "0xef938125ad0267fad3a7a1577e82d0f445cfa2c3b4a94aded908827f43879b62",
+        "usdcDelta": "70682293"
+      },
+      {
+        "blockNumber": "25520449",
+        "fee": {
+          "amount": "56411034945",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "5641103495"
+        },
+        "kind": "swap",
+        "logIndex": "451",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-430386883550",
+        "transactionHash": "0x23a1fea10869e71bf0b6da858dfccff473014da3f82bfd3a64c17ade06b00a19",
+        "usdcDelta": "98547104"
+      },
+      {
+        "blockNumber": "25531151",
+        "fee": {
+          "amount": "61309140720",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "6130914072"
+        },
+        "kind": "swap",
+        "logIndex": "624",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-448449228352",
+        "transactionHash": "0x59fceb2f27044c5a10079592ef437db9b386186aa6197519b83e847c51daeba8",
+        "usdcDelta": "102633633"
+      },
+      {
+        "blockNumber": "25536392",
+        "fee": {
+          "amount": "14686713326",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "1468671333"
+        },
+        "kind": "swap",
+        "logIndex": "80",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-104335729007",
+        "transactionHash": "0x359179daf3947e3b41b3b16c731b8be36e3933d969cd954d5a08d140b013fbe6",
+        "usdcDelta": "23836361"
+      },
+      {
+        "blockNumber": "25538228",
+        "fee": {
+          "amount": "59605072600",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "5960507260"
+        },
+        "kind": "swap",
+        "logIndex": "220",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-415422885660",
+        "transactionHash": "0x39e5a41913141bd56cb6c36c3c952951c2a827f1ea80be0193abd6c2c3f7fa9b",
+        "usdcDelta": "95112738"
+      },
+      {
+        "blockNumber": "25554184",
+        "fee": {
+          "amount": "54510654540",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "5451065454"
+        },
+        "kind": "swap",
+        "logIndex": "89",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-370824111914",
+        "transactionHash": "0x66eba6e0e5ab83a4258429a80a769d9b7dd9460cda8ddbc24a388de2c84cf4a3",
+        "usdcDelta": "85261579"
+      },
+      {
+        "blockNumber": "25554262",
+        "fee": null,
+        "kind": "swap",
+        "logIndex": "3",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-1533387154755",
+        "transactionHash": "0x746cafdbb6387a9d7b8dea81d9f9e4d3094d4d83519511e9e8594c626a744710",
+        "usdcDelta": "355498509"
+      },
+      {
+        "blockNumber": "25579111",
+        "fee": {
+          "amount": "22563824821",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "2256382483"
+        },
+        "kind": "swap",
+        "logIndex": "565",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-135753543662",
+        "transactionHash": "0x7c87cc4f6b9fb07263e84f9decd1c085fafe707d4b3e56c668af98c668baacba",
+        "usdcDelta": "31689742"
+      },
+      {
+        "blockNumber": "25600758",
+        "fee": {
+          "amount": "-14634021",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "42",
+        "lpSupplyDelta": "0",
+        "spotDelta": "1193851257354",
+        "transactionHash": "0x62389371d30b92aceb37418605fd16ed073b85982a5e72ed6d6cfa8268147d66",
+        "usdcDelta": "-257057627"
+      },
+      {
+        "blockNumber": "25602786",
+        "fee": {
+          "amount": "-9381658",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "151",
+        "lpSupplyDelta": "0",
+        "spotDelta": "926025300233",
+        "transactionHash": "0x5ac067e89ac61e4119fcf32aa1b1df501ac25e6f26a64961cf67b0ac309f6ded",
+        "usdcDelta": "-197420487"
+      },
+      {
+        "blockNumber": "25606653",
+        "fee": {
+          "amount": "-5185260",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "474",
+        "lpSupplyDelta": "0",
+        "spotDelta": "580480251312",
+        "transactionHash": "0x3041feaad5387ff1f78da1a7dd90e72c4bdaed3a5cf55fcd4d872a6283ccc53a",
+        "usdcDelta": "-122468300"
+      },
+      {
+        "blockNumber": "25621299",
+        "fee": {
+          "amount": "-3043927",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "167",
+        "lpSupplyDelta": "0",
+        "spotDelta": "366747217686",
+        "transactionHash": "0xc6c89cec58ace37c4adad762a63a13f7a02a9f3c84c8fc2a368f6b55d508db3f",
+        "usdcDelta": "-76772813"
+      },
+      {
+        "blockNumber": "25621306",
+        "fee": {
+          "amount": "-2206666",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "161",
+        "lpSupplyDelta": "0",
+        "spotDelta": "286482576726",
+        "transactionHash": "0x020c0caf1b2c74bf7e72945ec0298663879a3250df9695fd7c26e7613f3ade22",
+        "usdcDelta": "-59799581"
+      },
+      {
+        "blockNumber": "25621307",
+        "fee": {
+          "amount": "-2285336",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "64",
+        "lpSupplyDelta": "0",
+        "spotDelta": "319253053129",
+        "transactionHash": "0x3a209ff9d23bf46282edea1eedf33bb3448385f859f9f5008c729ff1cbfd78e5",
+        "usdcDelta": "-66466251"
+      },
+      {
+        "blockNumber": "25685900",
+        "fee": {
+          "amount": "-8603519",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "109",
+        "lpSupplyDelta": "0",
+        "spotDelta": "1599871934500",
+        "transactionHash": "0xd940c4fffc98f8af177aa2f1ba6db4ade4de40c8a84e08cac5516dd02b5f90dc",
+        "usdcDelta": "-331082905"
+      },
+      {
+        "blockNumber": "25688167",
+        "fee": {
+          "amount": "-1039109",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "74",
+        "lpSupplyDelta": "0",
+        "spotDelta": "275857140616",
+        "transactionHash": "0x6eb183c69761852c962d3d011a5672d6d85a153628030358357d8447b7c38f61",
+        "usdcDelta": "-56642460"
+      },
+      {
+        "blockNumber": "25689773",
+        "fee": {
+          "amount": "-1836245",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "212",
+        "lpSupplyDelta": "0",
+        "spotDelta": "601270731770",
+        "transactionHash": "0x1906902ae7ca4677b3c0dabc0cdf97f5a714d4599e8b4458f1f57269c40bb7fe",
+        "usdcDelta": "-123031831"
+      },
+      {
+        "blockNumber": "25690950",
+        "fee": {
+          "amount": "-262537",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "147",
+        "lpSupplyDelta": "0",
+        "spotDelta": "112042863133",
+        "transactionHash": "0x85111a1c5932bef9e423251520f485609512cb8fa60348705110ab24f03018dd",
+        "usdcDelta": "-22906050"
+      },
+      {
+        "blockNumber": "25692022",
+        "fee": {
+          "amount": "-353119",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "70",
+        "lpSupplyDelta": "0",
+        "spotDelta": "166421472348",
+        "transactionHash": "0x273a58152486ce72d0cee1cf181eff803805d48b467810170461fc0d1316a46e",
+        "usdcDelta": "-33986379"
+      },
+      {
+        "blockNumber": "25791734",
+        "fee": {
+          "amount": "472320528343",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "47232052835"
+        },
+        "kind": "swap",
+        "logIndex": "317",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-3357721306492",
+        "transactionHash": "0x5ea36b38a675d7c42c00a2ebd2993a6d45dd458868592bd59242f5c8d79368fc",
+        "usdcDelta": "722226564"
+      },
+      {
+        "blockNumber": "25798435",
+        "fee": {
+          "amount": "108328291896",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "10832829190"
+        },
+        "kind": "swap",
+        "logIndex": "779",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-691222969294",
+        "transactionHash": "0x0c5bd832f1c59831cc0fa7d7d63d098a3578322208cb581c14bf681c079e0b7d",
+        "usdcDelta": "151707010"
+      },
+      {
+        "blockNumber": "25800243",
+        "fee": {
+          "amount": "108624893500",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "10862489350"
+        },
+        "kind": "swap",
+        "logIndex": "421",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-662626627850",
+        "transactionHash": "0x43c897c88bcdf624996e8944b0fb33eae2b1515006b337e46bce1a8ca7146583",
+        "usdcDelta": "146257957"
+      },
+      {
+        "blockNumber": "25806714",
+        "fee": {
+          "amount": "111633754144",
+          "asset": "spot",
+          "evidence": "transaction-verified",
+          "protocolAmount": "11163375415"
+        },
+        "kind": "swap",
+        "logIndex": "774",
+        "lpSupplyDelta": "0",
+        "spotDelta": "-665442575271",
+        "transactionHash": "0x0dc68784d6dfab530f69e06c6d0ff883d665a4747871a761650d900fd65dc2f5",
+        "usdcDelta": "148848704"
+      },
+      {
+        "blockNumber": "25836556",
+        "fee": {
+          "amount": "-26310995",
+          "asset": "usdc",
+          "evidence": "transaction-verified",
+          "protocolAmount": "0"
+        },
+        "kind": "swap",
+        "logIndex": "454",
+        "lpSupplyDelta": "0",
+        "spotDelta": "2689142656145",
+        "transactionHash": "0xb37aa22115ac1ac152b8b4d646474b14785c9be8a44502288a04325748aaa378",
+        "usdcDelta": "-563553048"
+      }
+    ],
+    "fromBlock": "25270802",
+    "toBlock": "25925580"
+  },
+  "notes": [
+    "Reads are pinned to recorded Ethereum blocks. Core proxy identities are compared with the registry; individual collateral identity status is recorded per asset.",
+    "The ledger sums every observed reserve-token transfer and LP mint/burn in (fromBlock, toBlock]. Fee evidence is available only for unambiguous single-swap transactions.",
+    "Transaction-level fees use emitted pre-operation prices and ordered token transfers under the recorded Broker bytecode. Complex transactions retain null fee attribution."
+  ],
+  "rows": [
+    {
+      "blockHash": "0xa3986a1dd7ddf28dd9e7ae52306cc7611791e5003d7c5ea0626ab6038e8bbad6",
+      "blockNumber": "25270802",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "44146955525966",
+      "spotFmv": "320459833191976236",
+      "timestamp": "2026-06-08T06:08:23.000Z",
+      "usdBalance": "19696224011",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xe872996fc1396e645e0d6ff05b669b672dc2ea1569f051cf06796385103dbbfa",
+      "blockNumber": "25279973",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "43335241617523",
+      "spotFmv": "313036943041384439",
+      "timestamp": "2026-06-09T12:49:11.000Z",
+      "usdBalance": "19966001981",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xe86a812db4139ca95ffdfba2755ff6638159b72be802174a43aacc94b941ebb1",
+      "blockNumber": "25321008",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "40597119347551",
+      "spotFmv": "277191328558199606",
+      "timestamp": "2026-06-15T06:08:23.000Z",
+      "usdBalance": "20840295716",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xf38a57a70de04da7eb9ef4d7526c6a73feb7115e3fd5c75a60bf5f8fb19ce7d8",
+      "blockNumber": "25330185",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "40084242238534",
+      "spotFmv": "272991958970996211",
+      "timestamp": "2026-06-16T12:49:11.000Z",
+      "usdBalance": "20997093134",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x7a5fc387a1bb4518857e1733a716e58fb431258208c3e4d1883a0fa52af56ca7",
+      "blockNumber": "25371245",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "38674113485334",
+      "spotFmv": "252855741476164878",
+      "timestamp": "2026-06-22T06:08:23.000Z",
+      "usdBalance": "21423763629",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x8fb09be835663817e0d5f28b1a7efcd630458c5598e27d9a01f5ac2aeef2848e",
+      "blockNumber": "25380417",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "38509641761436",
+      "spotFmv": "250248999484475930",
+      "timestamp": "2026-06-23T12:49:11.000Z",
+      "usdBalance": "21471812529",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x7d4bec13f6ac63cbd48f597301e274076e2dbdafa29c0849723f2c02bf734211",
+      "blockNumber": "25421431",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "37829242167221",
+      "spotFmv": "225973101227966049",
+      "timestamp": "2026-06-29T06:08:23.000Z",
+      "usdBalance": "21659834788",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x0afb70704188e4070bce447c251a6ec01d994894599f0c78cc9c6bfa705914ca",
+      "blockNumber": "25430597",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "37725714542313",
+      "spotFmv": "223554207387936782",
+      "timestamp": "2026-06-30T12:49:11.000Z",
+      "usdBalance": "21688111918",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xaef6ea84308dc59a3c8fe2e114248c171d3676ba361378b7429eccf0ed4b2c93",
+      "blockNumber": "25471599",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49770327766864",
+      "spotFmv": "212585062903252453",
+      "timestamp": "2026-07-06T06:08:23.000Z",
+      "usdBalance": "18816144131",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x3e2447d4a2f09f2f9b2adc215b5046bf74721a446cc473f01f2e6042205e723f",
+      "blockNumber": "25480774",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49770327766864",
+      "spotFmv": "212121985744600065",
+      "timestamp": "2026-07-07T12:49:11.000Z",
+      "usdBalance": "18816144131",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x189aea19deec4733f9ab91ed814df71fc192b514b65b3a247211991d11624d3e",
+      "blockNumber": "25521823",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49032846652757",
+      "spotFmv": "204812860856683080",
+      "timestamp": "2026-07-13T06:08:23.000Z",
+      "usdBalance": "18985373528",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x21c0b18a059edd30823d825ecd925ac79bd7ec253f187f11927ad78e18cde3c7",
+      "blockNumber": "25530987",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49032846652757",
+      "spotFmv": "203788796552402372",
+      "timestamp": "2026-07-14T12:49:11.000Z",
+      "usdBalance": "18985373528",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x25373d6a94cc0cbd0daf431e6eed6bea6cd33aeec1d71865e626210c4423c95f",
+      "blockNumber": "25572034",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "46160427543069",
+      "spotFmv": "203059987203270122",
+      "timestamp": "2026-07-20T06:08:23.000Z",
+      "usdBalance": "19647716348",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x8aa17a5010019e3060ca240b8b9b4445f31c287c79a7ba91553abe22d6b42c44",
+      "blockNumber": "25581202",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "46024673999407",
+      "spotFmv": "203059987203270122",
+      "timestamp": "2026-07-21T12:49:11.000Z",
+      "usdBalance": "19679406090",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x159560cf9682262d801802010cacef28167604fa66da88c5461e29ef748dd586",
+      "blockNumber": "25622253",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49697513655847",
+      "spotFmv": "201034617382104918",
+      "timestamp": "2026-07-27T06:08:23.000Z",
+      "usdBalance": "18899421031",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x9da6297fab6bcb4486cf7ddb48d42ac523016d007b0a77740cc748025ed8e0a4",
+      "blockNumber": "25631424",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49697513655847",
+      "spotFmv": "201034617382109866",
+      "timestamp": "2026-07-28T12:49:11.000Z",
+      "usdBalance": "18899421031",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x29a3fa13a09aad43f8b6ba6d6709338c354a0216bb112456980e44e19502fdfc",
+      "blockNumber": "25672475",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49697513655847",
+      "spotFmv": "201565750056251374",
+      "timestamp": "2026-08-03T06:08:11.000Z",
+      "usdBalance": "18899421031",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x1376d237df71f953df97469c9c00c08a4a9898666452b285fe30a1c650bfdfb5",
+      "blockNumber": "25681654",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49697513655847",
+      "spotFmv": "201565750056251374",
+      "timestamp": "2026-08-04T12:49:11.000Z",
+      "usdBalance": "18899421031",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xa9a22edf01a82617096d6473492b8703cb6cc29376c75b66a241d182eebf1bc1",
+      "blockNumber": "25722703",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "52452977798214",
+      "spotFmv": "201086398316735350",
+      "timestamp": "2026-08-10T06:08:23.000Z",
+      "usdBalance": "18331771406",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xca0d43cf0a4d0fafa35a7efd31c217c3146c675191d6ade42f65185d795861ce",
+      "blockNumber": "25731859",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "52452977798214",
+      "spotFmv": "201086398316751395",
+      "timestamp": "2026-08-11T12:49:11.000Z",
+      "usdBalance": "18331771406",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x653bec7d1090951bdac322c6477446ce6d943239eb4351f037ee9ffe26ea5698",
+      "blockNumber": "25772906",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "52452977798214",
+      "spotFmv": "192846958178171601",
+      "timestamp": "2026-08-17T06:08:23.000Z",
+      "usdBalance": "18331771406",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x0447842811ebf4ec30f48cd72d84898ad03705d4c5c9e5816a9c504643ba571e",
+      "blockNumber": "25782077",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "52452977798214",
+      "spotFmv": "191882723387286338",
+      "timestamp": "2026-08-18T12:49:11.000Z",
+      "usdBalance": "18331771406",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x803049e42478ecf89dc77f19f874a04a203482d6edfee41bc99e84bd6404f809",
+      "blockNumber": "25823140",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "47075964319307",
+      "spotFmv": "198352227430657125",
+      "timestamp": "2026-08-24T06:08:23.000Z",
+      "usdBalance": "19500811641",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xa8cd70c0d49fcaaddfca1a6690320732bd486922c88c2b00982a64e31b22a3ee",
+      "blockNumber": "25832318",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "47075964319307",
+      "spotFmv": "199436034590254585",
+      "timestamp": "2026-08-25T12:49:11.000Z",
+      "usdBalance": "19500811641",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x7854d8de2dd7c060180f2a2b2232854a74f360fe4bbe0ca2d22f392295c4c622",
+      "blockNumber": "25873370",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49765106975452",
+      "spotFmv": "210397656720015489",
+      "timestamp": "2026-08-31T06:08:23.000Z",
+      "usdBalance": "18937258593",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xaaa3a357ed9fd1f6d6c166eda0e719785acad2f54f665516f65eab440e95268d",
+      "blockNumber": "25882535",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49765106975452",
+      "spotFmv": "207358794357697174",
+      "timestamp": "2026-09-01T12:49:11.000Z",
+      "usdBalance": "18937258593",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0xf33f89257cdac944f41917ef9aba19322811a6e9cca732ff128c850a422301ce",
+      "blockNumber": "25916411",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49765106975452",
+      "spotFmv": "194539052047207980",
+      "timestamp": "2026-09-06T06:08:23.000Z",
+      "usdBalance": "18937258593",
+      "usdPrice": "1000000000000000000"
+    },
+    {
+      "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+      "blockNumber": "25925580",
+      "implementation": {
+        "address": "0x9ce5056eeed22e4569a39daa670bacd277df3ef1",
+        "codeHash": "0x2005b63859f224931e9336ab2fb012c7edc4304deaa0c9d5bb59378ae63dfb3e"
+      },
+      "lpDecimals": "18",
+      "lpSupply": "48579276852161797184448588123",
+      "oracleStatus": "valid-at-observation",
+      "parameters": {
+        "decimals": "18",
+        "fees": {
+          "burnFeePercent": "0",
+          "mintFeePercent": "0",
+          "protocolSwapSharePercent": "100000000000000000",
+          "spotToUsdFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          },
+          "usdToSpotFeeFactors": {
+            "lower": "1050000000000000000",
+            "upper": "1500000000000000000"
+          }
+        },
+        "hardAssetRatioBounds": {
+          "lower": "200000000000000000",
+          "upper": "5000000000000000000"
+        },
+        "one": "1000000000000000000",
+        "softAssetRatioBounds": {
+          "lower": "750000000000000000",
+          "upper": "1330000000000000000"
+        }
+      },
+      "paused": false,
+      "spotBalance": "49765106975452",
+      "spotFmv": "193527530021222440",
+      "timestamp": "2026-09-07T12:49:11.000Z",
+      "usdBalance": "18937258593",
+      "usdPrice": "1000000000000000000"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "ethereum-rpc"
+}

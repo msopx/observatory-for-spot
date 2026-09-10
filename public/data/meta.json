@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "dataset": "ampl-rebases",
+      "format": "csv",
+      "path": "/data/ampl-rebases.csv",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "ampl-rebases",
+      "format": "json",
+      "path": "/data/ampl-rebases.json",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "broker-quotes",
+      "format": "csv",
+      "path": "/data/broker-quotes.csv",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "broker-quotes",
+      "format": "json",
+      "path": "/data/broker-quotes.json",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "broker-state",
+      "format": "csv",
+      "path": "/data/broker-state.csv",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "broker-state",
+      "format": "json",
+      "path": "/data/broker-state.json",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "meta",
+      "format": "json",
+      "path": "/data/meta.json",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "spot-health",
+      "format": "csv",
+      "path": "/data/spot-health.csv",
+      "schemaVersion": 1,
+      "status": "release"
+    },
+    {
+      "dataset": "spot-health",
+      "format": "json",
+      "path": "/data/spot-health.json",
+      "schemaVersion": 1,
+      "status": "release"
+    }
+  ],
+  "metadata": {
+    "blockHash": "0xb716fb7135252cdc4cc58ed16066b65d47328308e61a196cde827f813e95c54d",
+    "blockNumber": "25853823",
+    "blockTimestamp": "2026-08-28T12:45:11.000Z",
+    "chainId": 1,
+    "dataset": "meta",
+    "generatedAt": "2026-08-28T13:47:39.698Z",
+    "provenance": {
+      "contracts": [
+        {
+          "address": "0x1B228a749077b8e307C5856cE62Ef35d96Dca2ea",
+          "deploymentBlock": "7953832",
+          "role": "ampl-supply-policy"
+        },
+        {
+          "address": "0x82A91a0D599A45d8E9Af781D67f695d7C72869Bd",
+          "deploymentBlock": "17329340",
+          "role": "rollover-vault"
+        },
+        {
+          "address": "0x8689Fa9991834Bcf0387b31b7986ac311bAb6ab5",
+          "deploymentBlock": "22819429",
+          "role": "spot-fee-policy"
+        },
+        {
+          "address": "0xA088Aef966CAD7fE0B38e28c2E07590127Ab4ccB",
+          "deploymentBlock": "20127143",
+          "role": "bill-broker"
+        },
+        {
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "deploymentBlock": null,
+          "role": "usdc-token"
+        },
+        {
+          "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+          "deploymentBlock": "15597008",
+          "role": "spot-token"
+        },
+        {
+          "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+          "deploymentBlock": "7953823",
+          "role": "ampl-token"
+        }
+      ],
+      "generator": "scripts/refresh.ts",
+      "kind": "ethereum-rpc",
+      "notes": [
+        "Generated files are deterministic plaintext JSON and CSV.",
+        "broker-quotes.json records eth_call quote grids of the deployed Bill Broker at the release block."
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "release"
+  }
+}

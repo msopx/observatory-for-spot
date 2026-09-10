@@ -1,0 +1,371 @@
+{
+  "chainId": 1,
+  "feed": "collateral",
+  "generatedAt": "2026-09-07T13:13:09.960Z",
+  "notes": [
+    "Reads are pinned to recorded Ethereum blocks. Core proxy identities are compared with the registry; individual collateral identity status is recorded per asset."
+  ],
+  "rows": [
+    {
+      "blockHash": "0x1ca971a0221bb6279947d41c3625334b07f964faf96919a44c406604be370d28",
+      "blockNumber": "25925580",
+      "spot": [
+        {
+          "balance": "24540271835360",
+          "bond": {
+            "address": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "74518634060147",
+            "heldSenior": "24540271835360",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1788922800",
+            "seniorClaim": "24540271835582",
+            "seniorCollateral": "0",
+            "seniorSupply": "24540271835582",
+            "seniorToken": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "24540271835360"
+        },
+        {
+          "balance": "24874743401132",
+          "bond": {
+            "address": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "75534285572949",
+            "heldSenior": "24874743401132",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1789527600",
+            "seniorClaim": "24874743401236",
+            "seniorCollateral": "0",
+            "seniorSupply": "24874743401236",
+            "seniorToken": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "24874743401132"
+        },
+        {
+          "balance": "6698006371341",
+          "bond": {
+            "address": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "16189520294503",
+            "heldSenior": "6698006371341",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1790132400",
+            "seniorClaim": "6698006371661",
+            "seniorCollateral": "0",
+            "seniorSupply": "6698006371661",
+            "seniorToken": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "6698006371341"
+        },
+        {
+          "balance": "25356246095078",
+          "bond": null,
+          "isUnderlying": true,
+          "token": {
+            "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "decimals": "9",
+            "name": "Ampleforth",
+            "symbol": "AMPL"
+          },
+          "underlyingValue": "25356246095078"
+        }
+      ],
+      "spotImplementation": {
+        "address": "0x62cbe9f24413485f04fa62f9548c7855ec4a5425",
+        "codeHash": "0x6cb8f96f3878298f9b3764f42456f46bb3e023ead2d27bde22cfa031de91ec46"
+      },
+      "timestamp": "2026-09-07T12:49:11.000Z",
+      "underlying": {
+        "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+        "decimals": "9",
+        "name": "Ampleforth",
+        "symbol": "AMPL"
+      },
+      "vault": [
+        {
+          "balance": "75622985057813",
+          "bond": null,
+          "isUnderlying": true,
+          "token": {
+            "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "decimals": "9",
+            "name": "Ampleforth",
+            "symbol": "AMPL"
+          },
+          "underlyingValue": "75622985057813"
+        },
+        {
+          "balance": "112",
+          "bond": {
+            "address": "0x46cAbc58e61D087af2ADD5f4908Db7CE73f62168",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "0",
+            "heldSenior": "112",
+            "identity": "verified",
+            "isMature": true,
+            "maturityTimestamp": "1787713200",
+            "seniorClaim": "425",
+            "seniorCollateral": "342",
+            "seniorSupply": "425",
+            "seniorToken": "0xb2340D472EEf2E727F46BBdb250d8D34e66CACb2"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0xb2340D472EEf2E727F46BBdb250d8D34e66CACb2",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "0"
+        },
+        {
+          "balance": "15381349830717",
+          "bond": {
+            "address": "0x46cAbc58e61D087af2ADD5f4908Db7CE73f62168",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "0",
+            "heldSenior": "0",
+            "identity": "verified",
+            "isMature": true,
+            "maturityTimestamp": "1787713200",
+            "seniorClaim": "425",
+            "seniorCollateral": "342",
+            "seniorSupply": "425",
+            "seniorToken": "0xb2340D472EEf2E727F46BBdb250d8D34e66CACb2"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0xba79E52a9b4a1CaEe7f7375c9BDF5F1D929d5C2A",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL Z",
+            "symbol": "TRANCHE-AMPL-Z"
+          },
+          "underlyingValue": "15633681321704"
+        },
+        {
+          "balance": "46512069310969",
+          "bond": {
+            "address": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "74518634060147",
+            "heldSenior": "0",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1788922800",
+            "seniorClaim": "24540271835582",
+            "seniorCollateral": "0",
+            "seniorSupply": "24540271835582",
+            "seniorToken": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x80436c5612203Ba2a0fAd3C19645396cE6089e9E",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL Z",
+            "symbol": "TRANCHE-AMPL-Z"
+          },
+          "underlyingValue": "47291894531440"
+        },
+        {
+          "balance": "26121065365802",
+          "bond": {
+            "address": "0xE0cd70fD3188B2B3e654C60c3eA1DA61Ca2B06C6",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "0",
+            "heldSenior": "0",
+            "identity": "verified",
+            "isMature": true,
+            "maturityTimestamp": "1788318000",
+            "seniorClaim": "160",
+            "seniorCollateral": "148",
+            "seniorSupply": "160",
+            "seniorToken": "0xAcb239086c101d7b5fF0dEc23c4d74AA2017CAB6"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x590961232e64f8a925bd492C0c61cB62e3147952",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL Z",
+            "symbol": "TRANCHE-AMPL-Z"
+          },
+          "underlyingValue": "24916883427245"
+        },
+        {
+          "balance": "58",
+          "bond": {
+            "address": "0xE0cd70fD3188B2B3e654C60c3eA1DA61Ca2B06C6",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "0",
+            "heldSenior": "58",
+            "identity": "verified",
+            "isMature": true,
+            "maturityTimestamp": "1788318000",
+            "seniorClaim": "160",
+            "seniorCollateral": "148",
+            "seniorSupply": "160",
+            "seniorToken": "0xAcb239086c101d7b5fF0dEc23c4d74AA2017CAB6"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0xAcb239086c101d7b5fF0dEc23c4d74AA2017CAB6",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "0"
+        },
+        {
+          "balance": "47146005428248",
+          "bond": {
+            "address": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "75534285572949",
+            "heldSenior": "0",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1789527600",
+            "seniorClaim": "24874743401236",
+            "seniorCollateral": "0",
+            "seniorSupply": "24874743401236",
+            "seniorToken": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x8C7afD10056Cc86b07Ba5508558796b28E45a930",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL Z",
+            "symbol": "TRANCHE-AMPL-Z"
+          },
+          "underlyingValue": "47936459274736"
+        },
+        {
+          "balance": "222",
+          "bond": {
+            "address": "0x458812379DE56339eFe67E4Dc000c1FebE5A38BD",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "74518634060147",
+            "heldSenior": "222",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1788922800",
+            "seniorClaim": "24540271835582",
+            "seniorCollateral": "0",
+            "seniorSupply": "24540271835582",
+            "seniorToken": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x286d205b3e7a9C4685A3F8Ac7182deebF04915D1",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "0"
+        },
+        {
+          "balance": "12947480486971",
+          "bond": {
+            "address": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "16189520294503",
+            "heldSenior": "0",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1790132400",
+            "seniorClaim": "6698006371661",
+            "seniorCollateral": "0",
+            "seniorSupply": "6698006371661",
+            "seniorToken": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0xa133920B693b4cb4eB08C68E8c0e526b97E6A689",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL Z",
+            "symbol": "TRANCHE-AMPL-Z"
+          },
+          "underlyingValue": "9159960429596"
+        },
+        {
+          "balance": "104",
+          "bond": {
+            "address": "0x6DaeAeF1b8E5f5405A3947A690413dA33c5Fc16E",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "75534285572949",
+            "heldSenior": "104",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1789527600",
+            "seniorClaim": "24874743401236",
+            "seniorCollateral": "0",
+            "seniorSupply": "24874743401236",
+            "seniorToken": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x373f46a0a7F8170d9225ef42C7b438B7edaA6367",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "0"
+        },
+        {
+          "balance": "320",
+          "bond": {
+            "address": "0x35C7E4d675e9AFcb904A116BE4Aa78526f82B3A7",
+            "codeHash": "0xab10c32e38f50fc9abc802384bd9add59c40d2dd543d267f51b22bcc7d860395",
+            "collateralUnderlying": "16189520294503",
+            "heldSenior": "320",
+            "identity": "verified",
+            "isMature": false,
+            "maturityTimestamp": "1790132400",
+            "seniorClaim": "6698006371661",
+            "seniorCollateral": "0",
+            "seniorSupply": "6698006371661",
+            "seniorToken": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14"
+          },
+          "isUnderlying": false,
+          "token": {
+            "address": "0x9D0786bC6a9565CADcF0e79890906155Bec1Fb14",
+            "decimals": "9",
+            "name": "ButtonTranche AMPL A",
+            "symbol": "TRANCHE-AMPL-A"
+          },
+          "underlyingValue": "0"
+        }
+      ],
+      "vaultImplementation": {
+        "address": "0x09e8adfa8d829dac1c305544a86b53ed0ddd536a",
+        "codeHash": "0x1c7a73cb4b4339dff45795ba8bdc5f13bbb9f3efdf389c915a6a49a71a6a2669"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "ethereum-rpc"
+}
